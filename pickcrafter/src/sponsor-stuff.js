@@ -1,1 +1,0 @@
-function buttonMoreGamesOnClick(){window.open("http://www.gamessumo.com/","_blank")}function soundMute(o){mute=o,audioAllowed=webAudio&&!mute}function soundOFF(){mute=!0,audioAllowed=webAudio&&!mute}function soundON(){mute=!1,audioAllowed=webAudio&&!mute}

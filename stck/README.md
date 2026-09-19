@@ -1,2 +1,0 @@
-# stack
-💫 Keep on stackin'

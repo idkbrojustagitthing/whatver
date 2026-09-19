@@ -1,3 +1,0 @@
-=====Map185===== (Material Storage)
-%ignore
-
