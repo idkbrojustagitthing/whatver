@@ -1,0 +1,11 @@
+{
+	"texture": {
+		"file": "tutorials/arrow.png",
+		"offsetX": -64,
+		"offsetY": -128,
+		"rotation": 0
+	},
+	"scale": 1.8,
+	"isBehindTerrain": true,
+	"attachedModule": null
+}

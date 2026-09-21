@@ -1,0 +1,68 @@
+[
+	{
+		"body": {
+			"width": 1500,
+			"ramp": 0
+		},
+		"type": "soft",
+		"material": "default-terrain",
+		"pickups": [
+			{
+				"id": "tutorial_2/tutorial_end",
+				"x": 1500,
+				"y": 0
+			}
+		],
+		"decorations": [
+			{
+				"id": "s3",
+				"x": 150,
+				"y": 0,
+				"scale": 1.4,
+				"flip": false
+			},
+			{
+				"id": "s2",
+				"x": 200,
+				"y": 0,
+				"scale": 1,
+				"flip": false
+			},
+			{
+				"id": "s3",
+				"x": 450,
+				"y": 0,
+				"scale": 1.4,
+				"flip": true
+			},
+			{
+				"id": "s3",
+				"x": 550,
+				"y": 0,
+				"scale": 0.8,
+				"flip": false
+			},
+			{
+				"id": "g2",
+				"x": 600,
+				"y": 0,
+				"scale": 1.6,
+				"flip": true
+			},
+			{
+				"id": "s3",
+				"x": 1300,
+				"y": 0,
+				"scale": 1.2,
+				"flip": false
+			},
+			{
+				"id": "s2",
+				"x": 1450,
+				"y": 0,
+				"scale": 1.2,
+				"flip": false
+			}
+		]
+	}
+]

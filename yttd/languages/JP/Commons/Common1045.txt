@@ -1,0 +1,24 @@
+**********Common1045********** (戦①弱点にトドメ)
+{レコ} [レコ / cara6-9]
+{SE: se_maoudamashii_magical14}
+#Message#
+「これでもう…　起き上がってこねえハズ…だ」
+##
+
+{アリス} [アリス / cara11-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+「やったん…だな」
+##
+
+{ヒナコ} [ヒナコ / cara93-4]
+{SE: se_maoudamashii_magical14}
+#Message#
+「終わり…ね」
+##
+
+{N/A}
+#Message#
+\C[10]怪物を破壊した。
+##
+

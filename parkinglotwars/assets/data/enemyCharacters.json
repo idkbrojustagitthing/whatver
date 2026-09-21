@@ -1,0 +1,155 @@
+{
+	"enemyCharacters":
+	[
+		{
+			"id": 0,
+			"name": "Boxman",
+			"fullName": "Boxman",
+			"spritePrefix": "boxman",
+			"speed": [ 3, 3 ], 
+			"damage": [ 20, 30 ],
+			"health": [ 60, 70 ],
+ 			"attackRange": [ 1, 1 ],
+			"essence": "INT",
+			"specialAbility": 
+			{
+				"type": "EXTRA_ATTACK",
+				"rechargeTime": [ 2, 2 ]
+			},
+			"preBattle":
+			{
+				"priority": 1,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			}			
+		},
+		{
+			"id": 1,
+			"name": "Darrell",
+			"fullName": "Darrell",
+			"spritePrefix": "darrell",
+			"speed": [ 4, 4 ],
+			"damage": [ 10, 20 ],
+			"health": [ 50, 60 ],
+			"attackRange": [ 2, 2 ],
+			"essence": "INT",
+			"specialAbility": 
+			{
+				"type": "HEALING_POWER",
+				"rechargeTime": [ 2, 2 ]
+			},
+			"preBattle":
+			{
+				"priority": 3,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			}	
+		},
+		{
+			"id": 2,
+			"name": "Ernesto",
+			"fullName": "Ernesto",
+			"spritePrefix": "ernesto",
+			"speed": [ 2, 3 ],
+			"damage": [ 30, 30 ],
+			"health": [ 70, 70 ],
+			"attackRange": [ 1, 1 ],
+			"essence": "STR",
+			"specialAbility": 
+			{
+				"type": "SPLASH_DAMAGE",
+				"rechargeTime": [ 3, 2 ]
+			},
+			"preBattle":
+			{
+				"priority": 5,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			}	
+		},
+		{
+			"id": 3,
+			"name": "Jethro",
+			"fullName": "Jethro",
+			"spritePrefix": "jethro",
+			"speed": [ 4, 5 ],
+			"damage": [ 20, 20 ],
+			"health": [ 50, 60 ],
+			"attackRange": [ 1, 1 ],
+			"essence": "STR",
+			"specialAbility": 
+			{
+				"type": "EXTRA_MOVE",
+				"rechargeTime": [ 2, 2 ]
+			},
+			"preBattle":
+			{
+				"priority": 0,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": -50
+			}	
+		},
+		{
+			"id": 4,
+			"name": "Raymond",
+			"fullName": "Raymond",
+			"spritePrefix": "raymond",
+			"speed": [ 2, 3 ],
+			"damage": [ 10, 10 ],
+			"health": [ 60, 70 ],
+			"attackRange": [ 3, 3 ],
+			"essence": "AGI",
+			"specialAbility": 
+			{
+				"type": "HEAL_OTHERS",
+				"rechargeTime": [ 2, 2 ]
+			},
+			"preBattle":
+			{
+				"priority": 4,
+				"offsetY": 70
+			},
+			"combat":
+			{
+				"offsetY": 0
+			}
+		},
+		{
+			"id": 5,
+			"name": "Shannon",
+			"fullName": "Shannon",
+			"spritePrefix": "shannon",
+			"speed": [ 3, 3 ],
+			"damage": [ 10, 10 ],
+			"health": [ 60, 70 ],
+			"attackRange": [ 2, 2 ],
+			"essence": "AGI",
+			"specialAbility": 
+			{
+				"type": "EXTRA_ATTACK",
+				"rechargeTime": [ 2, 1 ]
+			},
+			"preBattle":
+			{
+				"priority": 2,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			}	
+		}
+	]
+}

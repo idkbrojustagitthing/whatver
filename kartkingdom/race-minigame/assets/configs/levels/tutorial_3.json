@@ -1,0 +1,14 @@
+{
+	"name": "Tutorial 3",
+	"theme": "snow",
+	"start": "default_start",
+	"bots": {
+		"jane": "ai/level_2_tutorial_kart"
+	},
+	"sections": [
+		"tutorial_3/press_candy_redux",
+		"tutorial_3/up_the_hill",
+		"tutorial_3/how_to_win"
+	],
+	"end": "default_end"
+}

@@ -1,0 +1,104 @@
+**********Common1395********** (呼・ランマル映像)
+{声}
+#Message#
+\.「うっ………」
+##
+
+{ランマル}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「クソッ…　最低だ…」
+##
+
+#Message#
+\.「なんでオレが…こんな目に…」
+##
+
+#Message#
+\.「………」
+##
+
+{SE: sceneswitch2}
+#Message#
+\.「…そこに誰か…いるのか？」
+##
+
+#Message#
+\.「……いるんだろ…？
+　答えろよ…」
+##
+
+#Message#
+\.「…オレ…死ぬのか…？」
+##
+
+#Message#
+\.「………」
+##
+
+#Message#
+\.「あーダセェ…　マジかよ…」
+##
+
+#Message#
+\.「別に　毎日つまんなかったし
+　将来なんてどうでも良かったけど…」
+##
+
+{SE: Accent21-1}
+#Message#
+\.「今かよ…」
+##
+
+#Message#
+\.「………」
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「おかしいよな…？　だって全然痛くねえんだ…」
+##
+
+#Message#
+\.「腹からこんなに血が出てんだぜ…？
+　なんで痛くないんだ　オレ…」
+##
+
+#Message#
+\.「死ぬ実感…ねえよ…」
+##
+
+#Message#
+\.「………」
+##
+
+#Message#
+\.「なぁ…」
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「オレ…まだ生きてるか…？」
+##
+
+#Message#
+\.「なぁ…」
+##
+
+#Message#
+\.「………」
+##
+
+#Message#
+\.\sp[10]「………………」
+##
+
+#Message#
+\.\sp[7]「………………………」\|\^
+##
+
+{N/A}
+#Message#
+\.\C[3]映像はここまでだ。
+##
+

@@ -1,0 +1,310 @@
+**********Common1643********** (３前進展②光の数矛盾)
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-2]
+{SE: Accent28-1}
+#Message#
+「７つ…光ってた…？」
+##
+
+{Qタロウ} [Qタロウ / cara4-6]
+#Message#
+\.「あ　ああ…！」
+##
+
+{アンズ} [アンズ / cara96-4]
+#Message#
+\.「それじゃあ…なんで　今は５つしか光ってないの…？」
+##
+
+<Else>
+
+{Qタロウ} [Qタロウ / cara4-6]
+{SE: Accent28-1}
+#Message#
+「５つしか　光ってない…だと？」
+##
+
+{サラ}
+#Message#
+\.「は　はい…」
+##
+
+{Qタロウ} [Qタロウ / cara4-5]
+#Message#
+\.「どういう事ぜよ！
+　墓地で見た時は…確かに７つ…！」
+##
+
+<Condition End>
+
+{アルジー} [アルジー / cara17-8]
+{SE: Accent21-1}
+#Message#
+\.「ちなみに　これ以外に　ヒツギは存在しねえぜ」
+##
+
+{サラ}
+#Message#
+\.\C[4]（じゃあ　７つの光るヒツギが　５つに減った理由は…）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-13]
+{SE: Accent41-1}
+#Message#
+\.「\C[2]光を失ったヒツギ\C[0]が存在するという事ですね…！」
+##
+
+<Else>
+
+{ソウ} [ソウ / cara5-2]
+{SE: Accent41-1}
+#Message#
+\.「\C[2]光を失ったヒツギ\C[0]が存在するって事だね」
+##
+
+<Condition End>
+
+{Qタロウ} [Qタロウ / cara4-5]
+#Message#
+\.「んだら　その理由を考えてみようじゃねえか!!」
+##
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+<Else>
+
+<Condition End>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+<Else>
+
+<Condition End>
+
+{N/A}
+#Message#
+
+　　　　　　　　　\C[3]光を失ったヒツギ
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-6]
+{SE: Accent21-1}
+#Message#
+「えっと　とりあえず　２番のアンズのヒツギは　光って
+　ないな…」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-1]
+{SE: Accent21-1}
+#Message#
+「フン…　２番のアンズのヒツギが　光ってない事は
+　見てわかるな」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-4]
+{SE: Accent21-1}
+#Message#
+「まあ…　２番のアンズのヒツギが　光ってないのは
+　わかるね…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-8]
+{SE: shock1}
+#Message#
+「私　光を失ってるの!?」
+##
+
+{クルマダ} [クルマダ / cara95-21]
+#Message#
+「おい…　無駄な発言に付き合ってられねえぞ…」
+##
+
+{アンズ} [アンズ / cara96-13]
+#Message#
+「あっ　取り下げます！」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-15]
+#Message#
+「アンズのヒツギの上で　メイプルが爆発したよな
+　そのせいか…？」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{ギン} [ギン / cara9-3]
+#Message#
+「ヒツギの上で　メイプルさんが爆発したから…
+　そのせいワン…？」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-11]
+{SE: Accent21-1}
+#Message#
+「でも…　他にもう１つ　光を失ったヒツギが
+　あるハズでしょ？」
+##
+
+{ヒナコ} [ヒナコ / cara93-4]
+#Message#
+\.「…」
+##
+
+{マイ} [マイ / cara92-17]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「他に…　原因が無いかな…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{サラ}
+{SE: Accent21-1}
+#Message#
+「だが…　他にもう１つ　光を失ったヒツギが
+　存在するハズだろう…？」
+##
+
+{ヒナコ} [ヒナコ / cara93-4]
+#Message#
+\.「…」
+##
+
+{サラ}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「爆発の他に…　原因は無いだろうか…」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+{SE: Accent21-1}
+#Message#
+\C[4]（この際　小さなことで良いんだ…）
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギに起きた異変…思い出せませんか…？」
+##
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-5]
+#Message#
+「独特な\C[2]ニオイ\C[0]が気になったくらいかな…」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-10]
+#Message#
+「あー…　そういや　ヒナコに\C[2]液体\C[0]ぶちまけられて
+　オレのヒツギ　ベトベトにされたな…」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+{SE: sceneswitch2}
+#Message#
+「ランマル…キミにも聞いてるんだぞ」
+##
+
+{ランマル} [ランマル / cara91-39]
+#Message#
+「………」
+##
+
+[ランマル / cara91-40]
+{SE: Accent40-1}
+#Message#
+「…そうだな　ヒナコに\C[2]液体\C[0]をかけられて
+　オレのヒツギを　ベトベトにされたっけ…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Else (Switch #24 (★ランマル生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-2]
+{SE: Accent41-1}
+#Message#
+「別に…なかったけど…」
+##
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-13]
+{SE: flash-of-light-3}
+#Message#
+「実はヒツギも　電池で光ってたんじゃないですか？
+　きっと…\C[2]電池切れ\C[0]です！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-4]
+{SE: Accent28-1}
+#Message#
+「実はヒツギも　電池で光ってたんじゃない？
+　たぶん　\C[2]電池切れ\C[0]なんだよ」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-15]
+{SE: Accent21-1}
+#Message#
+「やっぱ爆発のせいじゃねーの？
+　…\C[2]爆風の熱\C[0]とかさぁ」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{ギン} [ギン / cara9-3]
+{SE: Accent21-1}
+#Message#
+「やっぱり爆発のせいだと思うニャン…
+　…\C[2]爆風の熱\C[0]とか…」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+

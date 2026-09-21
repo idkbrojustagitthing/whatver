@@ -1,0 +1,672 @@
+**********Common1667********** (３前進展④新品でした)
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-10]
+{SE: Accent28-1}
+#Message#
+「ギン！　そりゃ本当か!?」
+##
+
+{ギン} [ギン / cara9-6]
+#Message#
+\.「もちろんニャン！」
+##
+
+{レコ} [レコ / cara6-4]
+{SE: Accent21-1}
+#Message#
+\.「だったら　怪しい人物がいなかったのも　うなずけるぜ！」
+##
+
+[レコ / cara6-5]
+#Message#
+\.「新品のヒツギには…\C[2]始めから\C[0]塗料が付いてたんだよ！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-8]
+{SE: Accent28-1}
+#Message#
+「でかしたぞ！　飯伏 銀！　よく覚えていた！」
+##
+
+{ギン} [ギン / cara9-6]
+#Message#
+\.「当然ニャン！」
+##
+
+{アリス} [アリス / cara11-14]
+{SE: Accent21-1}
+#Message#
+\.「怪しい人物など　いなくて当然だったんだ…！」
+##
+
+[アリス / cara11-10]
+#Message#
+\.「新品のヒツギには…\C[2]始めから\C[0]塗料が付いてたんだから！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-6]
+{SE: Accent28-1}
+#Message#
+「ギン…！　それは確かぜよ…!?」
+##
+
+{ギン} [ギン / cara9-6]
+#Message#
+\.「もちろんニャン！」
+##
+
+{Qタロウ} [Qタロウ / cara4-8]
+{SE: Accent21-1}
+#Message#
+\.「だったら　怪しい人物がいなかったのも　当然がや！」
+##
+
+[Qタロウ / cara4-5]
+#Message#
+\.「新品のヒツギには…\C[2]始めから\C[0]塗料が付いてたぜよ！」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-4]
+#Message#
+\.「作られた段階から　塗料でコーティングされてたって
+　ことだね！」
+##
+
+[アンズ / cara96-2]
+#Message#
+\.「まるで　アーモンドチョコの…チョコ部分みたいに!!」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-6]
+#Message#
+\.「製造の段階から　塗料でコーティングされてたって
+　ことだね…！」
+##
+
+[ハヤサカ / cara94-2]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「となると防湿剤や　変色防止用の類なのかも…」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-17]
+#Message#
+\.「作られた段階から　塗料でコーティングされてたって
+　ことかよ！」
+##
+
+[クルマダ / cara95-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「家具に使うニスみたいなもん…ってワケか」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{ギン} [ギン / cara9-2]
+#Message#
+\.「やっぱりニャン！
+　作られた段階から　コーティングしてあったワン！」
+##
+
+{アンズ}
+#Message#
+\.「きびだんごのオブラートみたいなもんニャン!!」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-24]
+#Message#
+\.「それじゃあ…　墓地以外のヒツギも…！」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-6]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ああ　アルジーも言ったよな…
+　ギンと\N[4]のヒツギは　どっちも新品だって」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-14]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ああ　アルジーも言っていた…
+　ギンと\N[4]のヒツギは　どっちも新品だと」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-4]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「それじゃあ…　墓地以外のヒツギも…」
+##
+
+[ソウ / cara5-17]
+{SE: Accent21-1}
+#Message#
+\.「アルジーの話じゃ…　ギンと\N[4]の
+　ヒツギも　新品なんだよね…？」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（つまり…ギンと\N[4]のヒツギは…）
+##
+
+#Choice#
+両方光る
+両方光らない
+ギンのは光る
+\N[4]のは光る
+##
+
+<両方光る>
+
+{サラ} [ソウ / cara5-17]
+{SE: Accent40-1}
+#Message#
+「両方光る！」
+##
+
+<両方光らない>
+
+{サラ} [ソウ / cara5-17]
+{SE: Accent40-1}
+#Message#
+「両方光らない！」
+##
+
+{ギン} [ギン / cara9-7]
+#Message#
+\.「サラ姉ちゃん！　落ち着いてニャン！」
+##
+
+[ギン / cara9-6]
+#Message#
+\.「新品のヒツギは光るニャン！
+　難しいこと考えなくて大丈夫ワン！」
+##
+
+<ギンのは光る>
+
+{サラ} [ギン / cara9-6]
+{SE: Accent40-1}
+#Message#
+「ギンのは光る！」
+##
+
+<\N[4]のは光る>
+
+{サラ} [ギン / cara9-6]
+{SE: Accent40-1}
+#Message#
+「\N[4]のは光る！」
+##
+
+<Choice End>
+
+{ギン} [ギン / cara9-2]
+{SE: Accent28-1}
+#Message#
+\.「その通りニャン！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-23]
+{SE: sceneswitch2}
+#Message#
+\.「それなら　ヒツギの計算も合います…！」
+##
+
+[カンナ / cara3-16]
+#Message#
+\.「光を失ったヒツギは…　７つの内２つではなく…」
+##
+
+[カンナ / cara3-13]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「９つの内の\C[2]４つ\C[0]…！」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-6]
+{SE: Accent28-1}
+#Message#
+\.「アンズ　ランマル　ケイジ…
+　そして　もう１つのヒツギが…　光を失った…！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-14]
+{SE: Accent28-1}
+#Message#
+\.「アンズ　ランマル　ケイジ…
+　そして　もう１つのヒツギが…　光を失った…！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-2]
+{SE: sceneswitch2}
+#Message#
+\.「それなら　ヒツギの計算も合うね」
+##
+
+[ソウ / cara5-6]
+#Message#
+\.「光を失ったヒツギは…　７つの内２つじゃなく…」
+##
+
+[ソウ / cara5-1]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「９つの内の\C[2]４つ\C[0]…」
+##
+
+[ソウ / cara5-3]
+{SE: Accent28-1}
+#Message#
+\.「アンズ　ランマル　ケイジ…
+　そして　もう１つのヒツギが…　光を失ったことになる」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（１つだけ…　誰のヒツギかわからないのか…）
+##
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-4]
+{SE: Accent40-1}
+#Message#
+\.「でも　墓地のヒツギに　最後の１つがありそうだね…」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-15]
+{SE: Accent40-1}
+#Message#
+\.「けど　墓地のヒツギに　最後の１つがありそうだな…」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-2]
+{SE: Accent40-1}
+#Message#
+\.「でも　墓地のヒツギに　最後の１つがありそうだよね…」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+{ギン} [ギン / cara9-21]
+{SE: Accent40-1}
+#Message#
+\.「でも　墓地のヒツギに　最後の１つがありそうニャン…」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（そうじゃないと…おかしいな）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-13]
+#Message#
+\.「これって…　すごい情報なんじゃないですか…？」
+##
+
+[カンナ / cara3-16]
+{SE: sceneswitch2}
+#Message#
+\.「だって…\N[4]さんは
+　\C[2]光るヒツギの中にいる\C[0]…ってことですよね！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-2]
+#Message#
+\.「あはは　これなら絞り込めて来そうだね」
+##
+
+{SE: sceneswitch2}
+#Message#
+\.「だって…\N[4]は
+　\C[2]光るヒツギの中にいる\C[0]…ってことになる」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-17]
+#Message#
+\.「おお！　じゃあ　光るヒツギを指定すりゃあ…！」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-6]
+#Message#
+\.「ええ!?　じゃあ光るヒツギを指定すれば…！」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-6]
+#Message#
+\.「おお…！　じゃあ光るヒツギを指定すれば…！」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+{サラ}
+#Message#
+\.「あ…！　じゃあ光るヒツギを指定すれば…！」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-12]
+#Message#
+\.「ま…　待つぜよ…!!」
+##
+
+[Qタロウ / cara4-5]
+{SE: Accent42-1}
+#Message#
+\.「それは…　ギンも同じぜよ！」
+##
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-8]
+#Message#
+\.「そうだった！　じゃあダメじゃん！」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-7]
+#Message#
+\.「そうだった…！　これでは意味が無い…！」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-18]
+#Message#
+\.「そうだった…　マジどうすんだよこれ！」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{サラ}
+#Message#
+\.「うっ…！　そうでした…！」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-13]
+#Message#
+\.「結局　ギンと\N[4]を
+　判別する方法がなきゃあ　運ゲーに変わりねえぜよ!!」
+##
+
+{サラ}
+#Message#
+\.\C[4]（………）
+##
+
+{SE: heart2}
+#Message#
+\.\C[4]（…５分の１だ）
+##
+
+{SE: Accent21-1}
+#Message#
+\.\C[4]（５分の１で…\N[4]を当てるのか…？）
+##
+
+#Message#
+\.\C[4]（外れるだけなら　まだマシだ…）
+##
+
+{SE: horror_piano chord3}
+#Message#
+\.\C[4]（ギンを当てれば…　ギンが死ぬ）
+##
+
+{Qタロウ} [Qタロウ / cara4-6]
+{SE: Accent21-1}
+#Message#
+\.「サラ…　そろそろ　あのヒント機能を
+　使ってみる時なんじゃねえか？」
+##
+
+{サラ}
+#Message#
+\.「…！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-13]
+{SE: Accent40-1}
+#Message#
+\.「５つまでは絞り込みましたし…　ヒント機能を使えば
+　その中から　更に絞り込めるかも…！」
+##
+
+{サラ}
+#Message#
+\.「………」
+##
+
+{SE: Accent28-1}
+#Message#
+\.「…そうだな」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-18]
+{SE: Accent40-1}
+#Message#
+\.「５つまでは絞り込んだんだ…　ヒント機能を使って
+　その中から　更に絞り込むのは　アリだよね」
+##
+
+{サラ}
+#Message#
+\.「………」
+##
+
+{SE: Accent28-1}
+#Message#
+\.「…そうですね」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{アルジー} [アルジー / cara17-9]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「…やり方を説明しよう」
+##
+
+[アルジー / cara17-8]
+{SE: sceneswitch2}
+#Message#
+\.「…ヒントを使いたいヒツギを\C[2]正面にして\C[0]…
+　\C[2]土台にタッチ\C[0]してみな」
+##
+
+{サラ}
+#Message#
+\.「ああ　わかった…」
+##
+
+{SE: sceneswitch2}
+#Message#
+「光るヒツギの中から…　ヒントを使うヒツギを１つ
+　選ぶぞ…！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-24]
+#Message#
+\.「サラさん…　答えを出すのは早いです…！」
+##
+
+[カンナ / cara3-13]
+#Message#
+\.「カンナ達は…まだやり残したことがあるハズです…」
+##
+
+[カンナ / cara3-16]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「土台になってる　あの機械…
+　もっと詳しく調べてみませんか…！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-6]
+{SE: Accent28-1}
+#Message#
+\.「答えを出すのは…まだ早いよ」
+##
+
+[ソウ / cara5-2]
+#Message#
+\.「ほら　ボク達　まだ肝心なモノを　調べてないでしょ？」
+##
+
+[ソウ / cara5-1]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「土台になってる　あの機械…
+　もっと詳しく調べてみようよ」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{N/A}
+#Message#
+
+　　　　　　　　　　　ヒントの使い方
+##
+
+#Message#
+
+　　　　　　　　　　　装置の使い方
+##
+
+{サラ}
+#Message#
+\.\C[4]（さあ…　調べてみようじゃないか…！）
+##
+

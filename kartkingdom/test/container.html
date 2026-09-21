@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="Kart Kingdom Racing game.">
+
+    <title>Container | Kart Kingdom Racing</title>
+
+    <link rel="stylesheet" href="/test/container.css">
+  </head>
+
+  <body>
+    <div id="hud" class="flex-row reverse">
+      <button id="soundButton"></button>
+      <button id="pauseButton"></button>
+
+      <div class="flex-col">
+        <label for="deviceList">Device Size:</label>
+        <select id="deviceList">
+          <option value="" selected>Responsive</option>
+          <option value="iphone-se">iPhone SE</option>
+          <option value="iphone-6">iPhone 6/7/8</option>
+          <option value="iphone-plus">iPhone 6/7/8 Plus</option>
+          <option value="iphone-x">iPhone X</option>
+          <option value="ipad-mini">iPad Mini</option>
+          <option value="ipad-10">iPad 10.5"</option>
+          <option value="ipad-12">iPad 12.9"</option>
+        </select>
+      </div>
+    </div>
+    <iframe id="game" scrolling="no"></iframe>
+  </body>
+
+  <script src="/test/bellhop.js"></script>
+  <script src="/test/springroll-container.js"></script>
+
+  <script src="/test/container.js"></script>
+</html>

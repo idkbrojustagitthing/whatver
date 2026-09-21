@@ -1,0 +1,33 @@
+{
+"images": ["assets/images/dragon.png"],
+"frames": [
+    [2, 2, 128, 96, 0],
+    [132, 2, 128, 96, 0],
+    [262, 2, 150, 68, 0],
+    [262, 72, 150, 52, 0]
+],
+
+  "animations":{
+    "dragonjump": {
+      "next": "dragonidle",
+      "speed": 1,
+      "frames": [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+    },
+    "dragondead": {
+      "next": "dragondead",
+      "speed": 1,
+      "frames": [0]
+    },
+    "dragon_power": {
+      "next": "dragon_power",
+      "speed": 1,
+      "frames": [1]
+    },
+    "dragonidle": {"next": "dragonidle", "speed": 1, "frames": [3]}
+  },
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:2b7f37a1046232e356b351c7557fddd4:683856bf83a641802480a981f785a22d:581e962efa07d1f36d42214f5f5ec489$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,1184 @@
+html {
+  touch-action: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-scroll-chaining: none; }
+
+body {
+  font-family: 'colfax_regularregular'; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'pbs_kids_headlinebold',serif,sans-serif;
+  color: white;
+  cursor: default; }
+
+p {
+  cursor: default; }
+
+a {
+  cursor: pointer; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+img {
+  -moz-user-select: none;
+  /* These user-select properties are inheritable, used to prevent text selection */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  /* From IE10 only */
+  user-select: none;
+  /* Not valid CSS yet, as of July 2012 */
+  -webkit-user-drag: none;
+  /* Prevents dragging of images/divs etc */
+  user-drag: none; }
+
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  outline: none; }
+
+.hidden {
+  display: none; }
+
+.tip {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 847px;
+  height: 527px;
+  margin-left: -423px; }
+
+li {
+  text-align: initial; }
+
+.ng-modal-anim.ng-enter, .ng-modal-anim.ng-leave {
+  -webkit-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false); }
+
+.ng-modal-anim.ng-enter, .ng-modal-anim.ng-leave.ng-leave-active {
+  opacity: 0; }
+  .ng-modal-anim.ng-enter .dialog, .ng-modal-anim.ng-leave.ng-leave-active .dialog {
+    -webkit-transition: compact(compact(top 0.2s ease-in, false, false, false, false, false, false, false, false, false) false false);
+    -moz-transition: compact(compact(top 0.2s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+    -o-transition: compact(compact(top 0.2s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+    transition: compact(top 0.2s ease-in, false, false, false, false, false, false, false, false, false);
+    top: -25%; }
+
+.ng-modal-anim.ng-enter.ng-enter-active, .ng-modal-anim.ng-leave {
+  opacity: 1; }
+  .ng-modal-anim.ng-enter.ng-enter-active .dialog, .ng-modal-anim.ng-leave .dialog {
+    -webkit-transition: compact(compact(top 0.2s ease-out, false, false, false, false, false, false, false, false, false) false false);
+    -moz-transition: compact(compact(top 0.2s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+    -o-transition: compact(compact(top 0.2s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+    transition: compact(top 0.2s ease-out, false, false, false, false, false, false, false, false, false);
+    top: 50%; }
+
+.ng-modal-lift-up-anim.ng-enter, .ng-modal-lift-up-anim.ng-leave {
+  -webkit-transition: compact(compact(opacity 0.4s linear, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(opacity 0.4s linear, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(opacity 0.4s linear, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(opacity 0.4s linear, false, false, false, false, false, false, false, false, false); }
+
+.ng-modal-lift-up-anim.ng-enter, .ng-modal-lift-up-anim.ng-leave.ng-leave-active {
+  opacity: 0; }
+  .ng-modal-lift-up-anim.ng-enter .dialog, .ng-modal-lift-up-anim.ng-leave.ng-leave-active .dialog {
+    -webkit-transition: compact(compact(top 0.4s ease-in, false, false, false, false, false, false, false, false, false) false false);
+    -moz-transition: compact(compact(top 0.4s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+    -o-transition: compact(compact(top 0.4s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+    transition: compact(top 0.4s ease-in, false, false, false, false, false, false, false, false, false);
+    top: 125%; }
+
+.ng-modal-lift-up-anim.ng-enter.ng-enter-active, .ng-modal-lift-up-anim.ng-leave {
+  opacity: 1; }
+  .ng-modal-lift-up-anim.ng-enter.ng-enter-active .dialog, .ng-modal-lift-up-anim.ng-leave .dialog {
+    -webkit-transition: compact(compact(top 0.4s ease-out, false, false, false, false, false, false, false, false, false) false false);
+    -moz-transition: compact(compact(top 0.4s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+    -o-transition: compact(compact(top 0.4s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+    transition: compact(top 0.4s ease-out, false, false, false, false, false, false, false, false, false);
+    top: 50%; }
+
+.fade-anim.ng-enter, .fade-anim.ng-leave {
+  -webkit-transition: compact(compact(opacity 0.5s linear, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(opacity 0.5s linear, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(opacity 0.5s linear, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(opacity 0.5s linear, false, false, false, false, false, false, false, false, false); }
+
+.fade-anim.ng-enter, .fade-anim.ng-leave.ng-leave-active {
+  opacity: 0; }
+
+.fade-anim.ng-enter.ng-enter-active, .fade-anim.ng-leave {
+  opacity: 1; }
+
+.fade-anim-fast.ng-enter, .fade-anim-fast.ng-leave {
+  -webkit-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(opacity 0.2s linear, false, false, false, false, false, false, false, false, false); }
+
+.fade-anim-fast.ng-enter, .fade-anim-fast.ng-leave.ng-leave-active {
+  opacity: 0; }
+
+.fade-anim-fast.ng-enter.ng-enter-active, .fade-anim-fast.ng-leave {
+  opacity: 1; }
+
+.ng-show-fade-anim {
+  -webkit-transition: compact(compact(all linear 0.5s, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(all linear 0.5s, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(all linear 0.5s, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(all linear 0.5s, false, false, false, false, false, false, false, false, false);
+  opacity: 1; }
+  .ng-show-fade-anim.ng-hide-add, .ng-show-fade-anim.ng-hide-remove {
+    display: block !important; }
+  .ng-show-fade-anim.ng-hide {
+    opacity: 0; }
+
+.slide-anim.ng-enter {
+  -webkit-transition: compact(compact(right 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(right 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(right 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(right 0.5s ease-out, false, false, false, false, false, false, false, false, false); }
+
+.slide-anim.ng-leave {
+  -webkit-transition: compact(compact(right 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(right 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(right 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(right 0.5s ease-in, false, false, false, false, false, false, false, false, false); }
+
+.slide-anim.ng-enter, .slide-anim.ng-leave.ng-leave-active {
+  right: 100%; }
+
+.slide-anim.ng-enter.ng-enter-active, .slide-anim.ng-leave {
+  right: 0; }
+
+.popup-anim.ng-enter {
+  -webkit-transition: compact(compact(top 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(top 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(top 0.5s ease-out, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(top 0.5s ease-out, false, false, false, false, false, false, false, false, false); }
+
+.popup-anim.ng-leave {
+  -webkit-transition: compact(compact(top 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false);
+  -moz-transition: compact(compact(top 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+  -o-transition: compact(compact(top 0.5s ease-in, false, false, false, false, false, false, false, false, false) false false false);
+  transition: compact(top 0.5s ease-in, false, false, false, false, false, false, false, false, false); }
+
+.popup-anim.ng-enter, .popup-anim.ng-leave.ng-leave-active {
+  top: 100%; }
+
+.popup-anim.ng-enter.ng-enter-active, .popup-anim.ng-leave {
+  top: 0; }
+
+.debug-console {
+  position: relative;
+  top: -0.75em; }
+  .debug-console button {
+    background: #0869B2;
+    color: #ffffff;
+    padding: 1px 1em;
+    font-size: 1em;
+    cursor: pointer; }
+
+#track-selection-scene .debug-console {
+  position: absolute;
+  top: initial;
+  bottom: 3.51562vh;
+  padding: 0 3.51562vh;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+
+@font-face {
+  font-family: 'pbs_kids_headlinebold';
+  src: url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.eot");
+  src: url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.woff") format("woff"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.ttf") format("truetype"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.svg#pbs_kids_headlinebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxmedium';
+  src: url("fonts/colfax_medium/colfax-medium-webfont.eot");
+  src: url("fonts/colfax_medium/colfax-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_medium/colfax-medium-webfont.woff") format("woff"), url("fonts/colfax_medium/colfax-medium-webfont.ttf") format("truetype"), url("fonts/colfax_medium/colfax-medium-webfont.svg#colfaxmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pbs_kids_subhead_regular';
+  src: url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.eot");
+  src: url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.woff") format("woff"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.ttf") format("truetype"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.svg#pbs_kids_subheadregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pbs_kids_headlineregular';
+  src: url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.eot");
+  src: url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.woff") format("woff"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.ttf") format("truetype"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.svg#pbs_kids_headlineregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxblack';
+  src: url("fonts/colfax_black/colfax-black-webfont.eot");
+  src: url("fonts/colfax_black/colfax-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_black/colfax-black-webfont.woff") format("woff"), url("fonts/colfax_black/colfax-black-webfont.ttf") format("truetype"), url("fonts/colfax_black/colfax-black-webfont.svg#colfaxblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxbold';
+  src: url("fonts/colfax_bold/colfax-bold-webfont.eot");
+  src: url("fonts/colfax_bold/colfax-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_bold/colfax-bold-webfont.woff") format("woff"), url("fonts/colfax_bold/colfax-bold-webfont.ttf") format("truetype"), url("fonts/colfax_bold/colfax-bold-webfont.svg#colfaxbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxlight';
+  src: url("fonts/colfax_light/colfax-light-webfont.eot");
+  src: url("fonts/colfax_light/colfax-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_light/colfax-light-webfont.woff") format("woff"), url("fonts/colfax_light/colfax-light-webfont.ttf") format("truetype"), url("fonts/colfax_light/colfax-light-webfont.svg#colfaxlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfax_regularregular';
+  src: url("fonts/colfax_regular/colfax-regular-webfont.eot");
+  src: url("fonts/colfax_regular/colfax-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_regular/colfax-regular-webfont.woff") format("woff"), url("fonts/colfax_regular/colfax-regular-webfont.ttf") format("truetype"), url("fonts/colfax_regular/colfax-regular-webfont.svg#colfax_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.back-button {
+  width: 7.8125vh;
+  height: 7.8125vh;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 7.8125vh;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  top: 2.60417vh;
+  left: 2.60417vh; }
+  .back-button::before {
+    content: "";
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 2.60417vh 3.03385vh;
+    border-right-color: #0096F2; }
+  .back-button::after {
+    content: "";
+    position: absolute;
+    background-color: #0096F2;
+    width: 2.60417vh;
+    height: 1.30208vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%); }
+
+@media screen and (max-height: 410px) {
+  .back-button {
+    width: 32px;
+    height: 32px; }
+    .back-button::before {
+      border-width: 10.666666667px 12.426666667px; }
+    .back-button::after {
+      width: 10.666666667px;
+      height: 5.333333334px; } }
+
+.lock-button-ok {
+  position: absolute;
+  bottom: 3.90625vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35.15625vh;
+  height: 9.11458vh;
+  font-size: 5.20833vh;
+  line-height: 6.64062vh;
+  border-radius: 3.90625vh;
+  text-align: center;
+  color: #FFFFFF;
+  background: #7200EA;
+  font-family: 'pbs_kids_headlinebold';
+  text-transform: uppercase;
+  cursor: pointer; }
+
+.gadgets-tab {
+  width: 55.33854vh;
+  height: 33.85417vh;
+  border-radius: 3.90625vh;
+  font-size: 1.30208vh;
+  border: 1em solid #ffffff;
+  background: #FFB000; }
+  .gadgets-tab h3 {
+    font-family: 'pbs_kids_headlinebold';
+    color: #ffffff;
+    margin: 1.69271vh auto 1.17188vh;
+    font-size: 3.25521vh;
+    line-height: 1.28em; }
+  .gadgets-tab .gadgets {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .gadgets-tab .gadgets .gadget {
+      width: 9.89583vh;
+      height: 9.63542vh;
+      margin: 0.78125vh;
+      cursor: pointer; }
+      .gadgets-tab .gadgets .gadget img {
+        width: 100%; }
+
+.ranking .star {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/trophies/star.svg");
+  filter: brightness(0) opacity(0.4);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.ranking.one-star .star.third,
+.ranking.two-stars .star.second,
+.ranking.three-stars .star.first {
+  filter: none; }
+
+.cave-background {
+  background: #859694; }
+
+.beach-background {
+  background: #05A5A5; }
+
+.spooky-background {
+  background: #5A5B5B; }
+
+.snow-background {
+  background: #f41971; }
+
+.desert-background {
+  background: #F36D00; }
+
+.glade-background {
+  background: #8F58BB; }
+
+.cave-text {
+  color: #a6bab8; }
+
+.beach-text {
+  color: #00BFBF; }
+
+.snow-text {
+  color: #f41971; }
+
+.desert-text {
+  color: #FF7300; }
+
+.glade-text {
+  color: #8F58BB; }
+
+.track-card-details {
+  width: 68.35938vh;
+  height: 91.14583vh;
+  font-size: 1.69271vh;
+  border: 1em;
+  border-color: #ffffff;
+  border-style: solid; }
+  .track-card-details .nicks-right,
+  .track-card-details .nicks-left {
+    position: absolute;
+    top: 0; }
+    .track-card-details .nicks-right::before, .track-card-details .nicks-right::after,
+    .track-card-details .nicks-left::before,
+    .track-card-details .nicks-left::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 0.84615em solid transparent;
+      border-bottom: 0.84615em solid transparent; }
+  .track-card-details .nicks-left {
+    left: -1.82292vh; }
+    .track-card-details .nicks-left::before, .track-card-details .nicks-left::after {
+      border-left: 0.92308em solid;
+      left: 0; }
+    .track-card-details .nicks-left::before {
+      top: 28.64583vh; }
+    .track-card-details .nicks-left::after {
+      top: 74.21875vh; }
+  .track-card-details .nicks-right {
+    right: -1.82292vh; }
+    .track-card-details .nicks-right::before, .track-card-details .nicks-right::after {
+      border-right: 0.92308em solid;
+      right: 0; }
+    .track-card-details .nicks-right::before {
+      top: 6.51042vh; }
+    .track-card-details .nicks-right::after {
+      top: 40.36458vh; }
+  .track-card-details .banner {
+    overflow: hidden; }
+    .track-card-details .banner img {
+      position: relative;
+      width: 102%;
+      left: -1%;
+      top: 0; }
+  .track-card-details .track-name {
+    font-size: 5.72917vh;
+    margin: 1.43229vh auto 0.39062vh; }
+  .track-card-details .break {
+    display: flex;
+    margin: 0 4.16667vh;
+    height: 3.90625vh;
+    align-items: center; }
+    .track-card-details .break .line {
+      width: 100%;
+      height: 0.39062vh;
+      background: #ffffff; }
+    .track-card-details .break .vs {
+      font-size: 3.51562vh;
+      margin: 0 1.5625vh; }
+  .track-card-details .bots {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1.5625vh;
+    gap: 1.5625vh;
+    margin: 3.38542vh auto; }
+    .track-card-details .bots .bot {
+      width: 16.92708vh;
+      height: 18.61979vh;
+      background-image: url("images/race-scene/racers.svg");
+      background-repeat: no-repeat;
+      background-size: 600%;
+      position: relative;
+      display: block;
+      /* Standard Racers
+  **************************/
+      /* Guest/Event Racers
+  **************************/
+      font-size: 1.04167vh;
+      box-sizing: content-box;
+      border: 1em #ffffff solid; }
+      .track-card-details .bots .bot.racer-ace {
+        background-position: 0 0; }
+      .track-card-details .bots .bot.racer-armstrong {
+        background-position: 20% 0; }
+      .track-card-details .bots .bot.racer-aurora {
+        background-position: 40% 0; }
+      .track-card-details .bots .bot.racer-chaz {
+        background-position: 60% 0; }
+      .track-card-details .bots .bot.racer-daisy {
+        background-position: 80% 0; }
+      .track-card-details .bots .bot.racer-daze {
+        background-position: 0 33.33333%; }
+      .track-card-details .bots .bot.racer-diesel {
+        background-position: 20% 33.33333%; }
+      .track-card-details .bots .bot.racer-fang {
+        background-position: 40% 33.33333%; }
+      .track-card-details .bots .bot.racer-flash {
+        background-position: 60% 33.33333%; }
+      .track-card-details .bots .bot.racer-four {
+        background-position: 80% 33.33333%; }
+      .track-card-details .bots .bot.racer-frostbite {
+        background-position: 0 66.66667%; }
+      .track-card-details .bots .bot.racer-jane {
+        background-position: 20% 66.66667%; }
+      .track-card-details .bots .bot.racer-lucky {
+        background-position: 40% 66.66667%; }
+      .track-card-details .bots .bot.racer-lucy {
+        background-position: 60% 66.66667%; }
+      .track-card-details .bots .bot.racer-maxine {
+        background-position: 80% 66.66667%; }
+      .track-card-details .bots .bot.racer-phantom {
+        background-position: 0 100%; }
+      .track-card-details .bots .bot.racer-pierre {
+        background-position: 20% 100%; }
+      .track-card-details .bots .bot.racer-pinewood {
+        background-position: 40% 100%; }
+      .track-card-details .bots .bot.racer-pops {
+        background-position: 60% 100%; }
+      .track-card-details .bots .bot.racer-princess_wonderful {
+        background-position: 80% 100%; }
+      .track-card-details .bots .bot.racer-ram {
+        background-position: 100% 0; }
+      .track-card-details .bots .bot.racer-slide {
+        background-position: 100% 33.33333%; }
+      .track-card-details .bots .bot.racer-titan {
+        background-position: 100% 66.66667%; }
+      .track-card-details .bots .bot.racer-violet {
+        background-position: 100% 100%; }
+      .track-card-details .bots .bot.racer-nature_cat {
+        background-position: 120% 0%; }
+      .track-card-details .bots .bot.racer-bad_dog_bart {
+        background-position: 120% 33.33333%; }
+      .track-card-details .bots .bot.racer-gwendolyn {
+        background-position: 120% 66.66667%; }
+  .track-card-details .best-ranking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    .track-card-details .best-ranking .ranking {
+      font-size: 3.90625vh;
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 0.5em;
+      gap: 0.5em;
+      padding-right: 2.60417vh;
+      border-right: solid #ffffff 0.1em; }
+      .track-card-details .best-ranking .ranking li {
+        line-height: 1.269em;
+        text-align: center; }
+        .track-card-details .best-ranking .ranking li .star {
+          display: block;
+          width: 2em;
+          height: 2em;
+          margin-bottom: 0.52083vh; }
+    .track-card-details .best-ranking .best-time {
+      font-size: 3.25521vh;
+      padding-left: 2.60417vh;
+      line-height: 1.5em;
+      margin: 0; }
+      .track-card-details .best-ranking .best-time .time {
+        display: block;
+        font-size: 5.85938vh; }
+  .track-card-details .start-button {
+    color: inherit;
+    font-family: "pbs_kids_headlinebold";
+    background-color: #3FD700;
+    font-size: 7.03125vh;
+    width: 52.08333vh;
+    height: 13.02083vh;
+    border-radius: 3.90625vh;
+    margin: 3.90625vh auto;
+    cursor: pointer; }
+
+.locked-lightbox {
+  background-color: #1F2B28 !important;
+  z-index: 50; }
+  .locked-lightbox .lightbox-content {
+    background-color: #FFF;
+    width: 65.10417vh;
+    height: 65.10417vh;
+    border-radius: 3.90625vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .platform-android .locked-lightbox .lightbox-content.has-form:focus-within,
+    .platform-amazon-fireos .locked-lightbox .lightbox-content.has-form:focus-within {
+      top: 3vh; }
+    .locked-lightbox .lightbox-content .player,
+    .locked-lightbox .lightbox-content .circuit {
+      width: 32.55208vh;
+      height: 32.55208vh;
+      border-radius: 3.90625vh;
+      position: relative;
+      margin: 5.20833vh auto 2.60417vh;
+      cursor: initial; }
+      .locked-lightbox .lightbox-content .player .trophy,
+      .locked-lightbox .lightbox-content .circuit .trophy {
+        position: absolute;
+        width: 14.58333vh;
+        height: 19.14062vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      .locked-lightbox .lightbox-content .player.locked,
+      .locked-lightbox .lightbox-content .circuit.locked {
+        background-color: #939393 !important; }
+        .locked-lightbox .lightbox-content .player.locked .avatar,
+        .locked-lightbox .lightbox-content .circuit.locked .avatar {
+          filter: brightness(0); }
+    .locked-lightbox .lightbox-content .headshot-frame {
+      width: 25.65104vh;
+      height: 25.65104vh;
+      border-radius: 25.65104vh;
+      background-color: #CFCFCF;
+      position: relative;
+      margin: 6.64062vh auto 3.125vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 56%; }
+      .locked-lightbox .lightbox-content .headshot-frame.gus {
+        background-image: url("./images/locked-racers/headshot-gus.svg"); }
+    .locked-lightbox .lightbox-content .lock-message {
+      font-family: 'pbs_kids_headlinebold';
+      font-size: 5.20833vh;
+      line-height: 2.86458vh;
+      text-transform: uppercase;
+      color: #030706;
+      text-align: center; }
+      .locked-lightbox .lightbox-content .lock-message small {
+        font-size: 2.86458vh; }
+    .locked-lightbox .lightbox-content form .input-secretcode {
+      font-family: 'pbs_kids_headlineregular';
+      font-size: 6.51042vh;
+      line-height: 8.33333vh;
+      text-align: center;
+      text-transform: uppercase;
+      color: #939393;
+      width: 53.38542vh;
+      height: 10.41667vh;
+      border: 3px dashed #A6A6A6;
+      outline: none; }
+    .locked-lightbox .lightbox-content form .oops-message {
+      display: none; }
+    .locked-lightbox .lightbox-content form.oops-try-again .input-secretcode {
+      border-color: #F36D00; }
+    .locked-lightbox .lightbox-content form.oops-try-again .oops-message {
+      display: block;
+      font-family: 'pbs_kids_headlinebold';
+      font-size: 3.125vh;
+      line-height: 3.90625vh;
+      text-align: center;
+      text-transform: uppercase;
+      color: #F36D00; }
+  .locked-lightbox.unlocked .lightbox-content .circuit {
+    background-color: #FFE000; }
+  .locked-lightbox.unlocked .lightbox-content .lock-message {
+    color: #7200EA; }
+  .locked-lightbox.unlocked .lightbox-content .player.k ~ .lock-message,
+  .locked-lightbox.unlocked .lightbox-content .circuit.easy ~ .lock-message {
+    color: #0096F2; }
+  .locked-lightbox.unlocked .lightbox-content .player.cc ~ .lock-message {
+    color: #FF0049; }
+
+.full-view {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+  will-change: transform; }
+
+.app-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+@font-face {
+  font-family: 'pbs_kids_headlinebold';
+  src: url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.eot");
+  src: url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.woff") format("woff"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.ttf") format("truetype"), url("fonts/pbsheadline_bold/pbskidsheadline-bold-webfont.svg#pbs_kids_headlinebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxmedium';
+  src: url("fonts/colfax_medium/colfax-medium-webfont.eot");
+  src: url("fonts/colfax_medium/colfax-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_medium/colfax-medium-webfont.woff") format("woff"), url("fonts/colfax_medium/colfax-medium-webfont.ttf") format("truetype"), url("fonts/colfax_medium/colfax-medium-webfont.svg#colfaxmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pbs_kids_subhead_regular';
+  src: url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.eot");
+  src: url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.woff") format("woff"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.ttf") format("truetype"), url("fonts/pbspubheadline_regular/pbskidssubhead-regular-webfont.svg#pbs_kids_subheadregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pbs_kids_headlineregular';
+  src: url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.eot");
+  src: url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.woff") format("woff"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.ttf") format("truetype"), url("fonts/pbsheadline_regular/pbskidsheadline-regular-webfont.svg#pbs_kids_headlineregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxblack';
+  src: url("fonts/colfax_black/colfax-black-webfont.eot");
+  src: url("fonts/colfax_black/colfax-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_black/colfax-black-webfont.woff") format("woff"), url("fonts/colfax_black/colfax-black-webfont.ttf") format("truetype"), url("fonts/colfax_black/colfax-black-webfont.svg#colfaxblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxbold';
+  src: url("fonts/colfax_bold/colfax-bold-webfont.eot");
+  src: url("fonts/colfax_bold/colfax-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_bold/colfax-bold-webfont.woff") format("woff"), url("fonts/colfax_bold/colfax-bold-webfont.ttf") format("truetype"), url("fonts/colfax_bold/colfax-bold-webfont.svg#colfaxbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfaxlight';
+  src: url("fonts/colfax_light/colfax-light-webfont.eot");
+  src: url("fonts/colfax_light/colfax-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_light/colfax-light-webfont.woff") format("woff"), url("fonts/colfax_light/colfax-light-webfont.ttf") format("truetype"), url("fonts/colfax_light/colfax-light-webfont.svg#colfaxlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'colfax_regularregular';
+  src: url("fonts/colfax_regular/colfax-regular-webfont.eot");
+  src: url("fonts/colfax_regular/colfax-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colfax_regular/colfax-regular-webfont.woff") format("woff"), url("fonts/colfax_regular/colfax-regular-webfont.ttf") format("truetype"), url("fonts/colfax_regular/colfax-regular-webfont.svg#colfax_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#title-scene {
+  background-color: #FFE100;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer; }
+  #title-scene #background {
+    min-width: 2100px;
+    max-height: 50%;
+    position: absolute;
+    bottom: 33%;
+    left: 50%;
+    width: 102%;
+    transform: translateX(-50%); }
+  #title-scene #foreground {
+    margin: 3.5% 2% 0px;
+    height: 75%;
+    bottom: -2px;
+    position: relative;
+    background-image: url("./images/title-scene/foreground.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain; }
+  #title-scene #surface {
+    position: relative;
+    background-color: #FFF6CA;
+    height: 01.6927083%;
+    min-height: 2px; }
+  #title-scene #ground {
+    display: flex;
+    height: 24.479166667%;
+    background: #FF7300; }
+    #title-scene #ground #start-button {
+      position: relative;
+      margin: auto;
+      background: #7200EA;
+      border-radius: 3.90625vh;
+      color: white;
+      font-family: 'pbs_kids_headlinebold';
+      font-size: 7.03125vh;
+      padding: 1.4974vh 18.48958vh;
+      text-transform: uppercase;
+      outline: none; }
+
+#player-selection-scene {
+  background-color: #0096F2;
+  padding: 2.60417vh; }
+  #player-selection-scene h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 7.8125vh;
+    line-height: 1.3em;
+    text-transform: uppercase; }
+  #player-selection-scene .avatar {
+    width: 100%;
+    height: 100%; }
+  #player-selection-scene ul.players {
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3.90625vh 3.7037%;
+    gap: 3.90625vh 3.7037%;
+    margin: 6.51042vh auto; }
+  #player-selection-scene .player {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFF6CA;
+    border-radius: 3.90625vh;
+    width: 32.55208vh;
+    height: 32.55208vh; }
+    #player-selection-scene .player .player-name {
+      color: #FFF;
+      font-family: 'pbs_kids_headlineregular';
+      font-size: 2.60417vh;
+      line-height: 1.3em;
+      position: absolute;
+      bottom: 2.60417vh;
+      background-color: #4197EE;
+      text-transform: uppercase;
+      width: 56%;
+      text-align: center; }
+      #player-selection-scene .player .player-name::before, #player-selection-scene .player .player-name::after {
+        content: "";
+        border-style: solid;
+        border-color: transparent;
+        border-width: 0.7em 0.45em;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); }
+      #player-selection-scene .player .player-name::before {
+        left: -0.05em;
+        border-left-color: #FFF6CA; }
+      #player-selection-scene .player .player-name::after {
+        right: -0.05em;
+        border-right-color: #FFF6CA; }
+    #player-selection-scene .player.dot .player-name {
+      background-color: #E755D1; }
+    #player-selection-scene .player.dee .player-name {
+      background-color: #5EA520; }
+    #player-selection-scene .player.k {
+      background-color: #E85718; }
+      #player-selection-scene .player.k .player-name {
+        background-color: #4C3593; }
+        #player-selection-scene .player.k .player-name::before {
+          border-left-color: #E85718; }
+        #player-selection-scene .player.k .player-name::after {
+          border-right-color: #E85718; }
+    #player-selection-scene .player.cc {
+      background-color: #FFE000; }
+      #player-selection-scene .player.cc .player-name::before {
+        border-left-color: #FFE000; }
+      #player-selection-scene .player.cc .player-name::after {
+        border-right-color: #FFE000; }
+    #player-selection-scene .player.gus {
+      background-color: #F7941F; }
+      #player-selection-scene .player.gus .player-name {
+        background-color: #1F2B28; }
+        #player-selection-scene .player.gus .player-name::before {
+          border-left-color: #F7941F; }
+        #player-selection-scene .player.gus .player-name::after {
+          border-right-color: #F7941F; }
+    #player-selection-scene .player.locked, #player-selection-scene .player.unlocked {
+      background-color: #0869B2;
+      text-align: center; }
+      #player-selection-scene .player.locked .lock-icon, #player-selection-scene .player.unlocked .lock-icon {
+        width: 4.94792vh;
+        height: 4.94792vh;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: -0.65104vh; }
+      #player-selection-scene .player.locked .lock-message, #player-selection-scene .player.unlocked .lock-message {
+        color: #FFF;
+        font-family: 'pbs_kids_headlineregular';
+        font-size: 2.60417vh;
+        line-height: 1em;
+        white-space: pre;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 2.60417vh; }
+    #player-selection-scene .player.unlocked .avatar {
+      filter: brightness(0); }
+    #player-selection-scene .player.unlocked .unlocked-message {
+      color: #FFF;
+      font-family: 'pbs_kids_headlinebold';
+      font-size: 3.90625vh;
+      line-height: 2.60417vh;
+      padding: 2.08333vh 2.34375vh;
+      text-transform: uppercase;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #f41971; }
+
+#track-selection-scene {
+  background-color: #FFE000; }
+  #track-selection-scene .track-list-container {
+    overflow: visible;
+    background: #FFE000;
+    top: 15.36458vh;
+    padding: 3.90625vh 3.51562vh 15.625vh;
+    height: calc(100% - 15.36458vh); }
+  #track-selection-scene .difficulty-label {
+    background-color: #FFE000;
+    position: absolute;
+    height: 10.41667vh;
+    top: calc(-10.41667vh + 2px);
+    margin: 0;
+    font-family: 'pbs_kids_headlineregular';
+    font-size: 5.20833vh;
+    line-height: 6.64062vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 28.64583vh;
+    cursor: pointer; }
+    #track-selection-scene .difficulty-label.easy {
+      right: calc(50% + 16.92708vh);
+      color: #0096F2; }
+    #track-selection-scene .difficulty-label.tough {
+      left: 50%;
+      transform: translateX(-50%);
+      color: #8F58BB; }
+    #track-selection-scene .difficulty-label.hard {
+      left: calc(50% + 16.92708vh);
+      color: #FF0049; }
+    #track-selection-scene .difficulty-label.unlocked em {
+      background-color: #f41971;
+      font-size: 3.38542vh;
+      line-height: 2.60417vh;
+      width: 23.69792vh;
+      height: 6.77083vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: normal; }
+    #track-selection-scene .difficulty-label.locked, #track-selection-scene .difficulty-label.unlocked {
+      background-color: #0869B2 !important;
+      text-align: center; }
+      #track-selection-scene .difficulty-label.locked .lock-icon, #track-selection-scene .difficulty-label.unlocked .lock-icon {
+        width: 3.25521vh;
+        margin-right: 0.78125vh; }
+  #track-selection-scene .track-list {
+    background: #FFE000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 3.90625vh 3.51562vh 15.625vh;
+    grid-gap: 2.60417vh;
+    gap: 2.60417vh; }
+    #track-selection-scene .track-list .track {
+      font-size: 2.60417vh;
+      text-align: left;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border: solid 0.2em #FFF;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer; }
+      #track-selection-scene .track-list .track .banner {
+        position: absolute;
+        width: calc(100% + 4px);
+        left: -2px;
+        top: -2px; }
+      #track-selection-scene .track-list .track .track-stats {
+        font-family: 'pbs_kids_headlineregular';
+        line-height: 1.25em;
+        text-transform: uppercase;
+        color: #FFF;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1.30208vh;
+        display: grid;
+        grid-template-columns: auto repeat(3, 2.60417vh);
+        align-items: center;
+        grid-gap: 0.52083vh;
+        gap: 0.52083vh; }
+        #track-selection-scene .track-list .track .track-stats .trackname {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      #track-selection-scene .track-list .track .trackname {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    #track-selection-scene .track-list .champ-status {
+      position: absolute;
+      font-family: 'pbs_kids_headlineregular';
+      font-size: 2.86458vh;
+      line-height: 1em;
+      text-transform: uppercase;
+      text-align: left;
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      grid-gap: 2.60417vh;
+      gap: 2.60417vh;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 5.20833vh; }
+      #track-selection-scene .track-list .champ-status .trophy {
+        width: 4.6875vh;
+        height: 5.98958vh; }
+  #track-selection-scene.difficulty-easy {
+    background-color: #0096F2;
+    color: #0096F2; }
+    #track-selection-scene.difficulty-easy .track-list-container.easy {
+      z-index: 3; }
+    #track-selection-scene.difficulty-easy .difficulty-label.tough {
+      background-color: #8F58BB;
+      color: #FFF; }
+    #track-selection-scene.difficulty-easy .difficulty-label.hard {
+      background-color: #FF0049;
+      color: #FFF; }
+  #track-selection-scene.difficulty-tough {
+    background-color: #8F58BB;
+    color: #8F58BB; }
+    #track-selection-scene.difficulty-tough .track-list-container.tough {
+      z-index: 3; }
+    #track-selection-scene.difficulty-tough .difficulty-label.easy {
+      background-color: #0096F2;
+      color: #FFF; }
+    #track-selection-scene.difficulty-tough .difficulty-label.hard {
+      background-color: #FF0049;
+      color: #FFF; }
+  #track-selection-scene.difficulty-hard {
+    background-color: #FF0049;
+    color: #FF0049; }
+    #track-selection-scene.difficulty-hard .track-list-container.hard {
+      z-index: 3; }
+    #track-selection-scene.difficulty-hard .difficulty-label.easy {
+      background-color: #0096F2;
+      color: #FFF; }
+    #track-selection-scene.difficulty-hard .difficulty-label.tough {
+      background-color: #8F58BB;
+      color: #FFF; }
+
+#racing {
+  font-family: 'pbs_kids_headlineregular';
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background: #006DD1;
+  /* Race Game Canvas Element
+  **********************************/ }
+  #racing .floor {
+    width: 100%;
+    background: #0096F2;
+    position: absolute;
+    height: 42.31771vh;
+    bottom: 0px; }
+  #racing .foreground {
+    position: relative;
+    margin: 4.29688vh 0;
+    display: grid;
+    grid-template-rows: auto 42.96875vh 38.02083vh;
+    grid-template-areas: ".  race-details" "player race-details" "gadgets race-details";
+    grid-gap: 2.86458vh;
+    gap: 0 2.86458vh;
+    justify-content: center;
+    justify-items: end;
+    align-content: end;
+    align-items: end; }
+  #racing .player {
+    grid-area: player;
+    position: relative; }
+    #racing .player .avatar {
+      width: 52.08333vh;
+      height: 42.96875vh;
+      transform: translate(-2.60417vh, 2.60417vh); }
+    #racing .player .background {
+      position: absolute;
+      width: 57.29167vh;
+      bottom: 16.66667vh;
+      right: 0; }
+    #racing .player .gadget-slot {
+      position: absolute;
+      right: 2.34375vh;
+      bottom: 33.85417vh;
+      width: 17.44792vh;
+      height: 17.44792vh; }
+      #racing .player .gadget-slot .slot {
+        width: 100%; }
+      #racing .player .gadget-slot .gadget {
+        position: absolute;
+        cursor: pointer;
+        width: 13.28125vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      #racing .player .gadget-slot .remove-gadget {
+        position: absolute;
+        cursor: pointer;
+        width: 4.55729vh;
+        height: 4.55729vh;
+        border-radius: 4.55729vh;
+        background-color: #ff6700;
+        top: -1.69271vh;
+        right: -1.69271vh; }
+        #racing .player .gadget-slot .remove-gadget .cross-left, #racing .player .gadget-slot .remove-gadget .cross-right {
+          position: absolute;
+          width: 0.39062vh;
+          height: 3vh;
+          top: 50%;
+          left: 50%;
+          background-color: #ffffff; }
+        #racing .player .gadget-slot .remove-gadget .cross-left {
+          transform: translate(-50%, -50%) rotate(45deg); }
+        #racing .player .gadget-slot .remove-gadget .cross-right {
+          transform: translate(-50%, -50%) rotate(-45deg); }
+        #racing .player .gadget-slot .remove-gadget:hover {
+          background-color: #ffffff; }
+          #racing .player .gadget-slot .remove-gadget:hover .cross-left, #racing .player .gadget-slot .remove-gadget:hover .cross-right {
+            background-color: #ff6700; }
+        #racing .player .gadget-slot .remove-gadget:disabled {
+          background-color: #d3d3d3; }
+          #racing .player .gadget-slot .remove-gadget:disabled:hover {
+            background-color: #d3d3d3; }
+            #racing .player .gadget-slot .remove-gadget:disabled:hover .cross-left, #racing .player .gadget-slot .remove-gadget:disabled:hover .cross-right {
+              background-color: #ffffff; }
+        @media screen and (max-height: 439px) {
+          #racing .player .gadget-slot .remove-gadget {
+            position: absolute;
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #ff6700; }
+            #racing .player .gadget-slot .remove-gadget .cross-left, #racing .player .gadget-slot .remove-gadget .cross-right {
+              position: absolute;
+              width: 2px;
+              height: 13px;
+              top: 50%;
+              left: 50%;
+              background-color: #ffffff; }
+            #racing .player .gadget-slot .remove-gadget .cross-left {
+              transform: translate(-50%, -50%) rotate(45deg); }
+            #racing .player .gadget-slot .remove-gadget .cross-right {
+              transform: translate(-50%, -50%) rotate(-45deg); }
+            #racing .player .gadget-slot .remove-gadget:hover {
+              background-color: #ffffff; }
+              #racing .player .gadget-slot .remove-gadget:hover .cross-left, #racing .player .gadget-slot .remove-gadget:hover .cross-right {
+                background-color: #ff6700; }
+            #racing .player .gadget-slot .remove-gadget:disabled {
+              background-color: #d3d3d3; }
+              #racing .player .gadget-slot .remove-gadget:disabled:hover {
+                background-color: #d3d3d3; }
+                #racing .player .gadget-slot .remove-gadget:disabled:hover .cross-left, #racing .player .gadget-slot .remove-gadget:disabled:hover .cross-right {
+                  background-color: #ffffff; } }
+  #racing .gadgets-tab {
+    grid-area: gadgets; }
+  #racing .track-card-details {
+    grid-area: race-details; }
+    #racing .track-card-details .nicks-left::before {
+      border-left-color: #006DD1; }
+    #racing .track-card-details .nicks-left::after {
+      border-left-color: #0096F2; }
+    #racing .track-card-details .nicks-right::before, #racing .track-card-details .nicks-right::after {
+      border-right-color: #006DD1; }
+  #racing .stage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: block; }
+    #racing .stage .game {
+      width: 100%;
+      height: 100%; }

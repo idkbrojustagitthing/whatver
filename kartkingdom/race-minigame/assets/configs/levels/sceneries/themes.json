@@ -1,0 +1,204 @@
+{
+	"preview": {
+		"bgColour": "0x00C3F7",
+		"bgLayer1": {
+			"filename": "preview_bg_layer_1",
+			"scrollingRate": 0.1
+		},
+		"bgLayer2": {
+			"filename": "preview_bg_layer_2",
+			"scrollingRate": 0.4,
+			"topScreenRatio": 0,
+			"bottomScreenRatio": 0.45,
+			"extraZoom": 1.25
+		},
+		"terrainSurface": "preview_surface",
+		"terrainGround": "preview_ground",
+		"terrainLines": "preview_line",
+		"decorations": "glade_decorations",
+		"cloud": {
+			"filename": "cloud",
+			"amount": 3,
+			"spawnGapMin": 250,
+			"spawnGapMax": 500,
+			"spawnYMin": 30,
+			"spawnYMax": 70,
+			"scaleMin": 0.7,
+			"scaleMax": 1.05,
+			"speedMin": 5.0,
+			"speedMax": 30.0
+		},
+		"finishLine": "finish_line_1",
+		"audience": "audience_1"
+	},
+	"glade": {
+		"bgColour": "0xFFE100",
+		"bgLayer1": {
+			"filename": "glade_bg_layer_1",
+			"scrollingRate": 0.1
+		},
+		"bgLayer2": {
+			"filename": "glade_bg_layer_2",
+			"scrollingRate": 0.4,
+			"topScreenRatio": 0,
+			"bottomScreenRatio": 0.45,
+			"extraZoom": 1.25
+		},
+		"terrainSurface": "glade_surface",
+		"terrainGround": "glade_ground",
+		"terrainLines": "glade_line",
+		"decorations": "glade_decorations",
+		"cloud": {
+			"filename": "cloud",
+			"amount": 3,
+			"spawnGapMin": 250,
+			"spawnGapMax": 500,
+			"spawnYMin": 30,
+			"spawnYMax": 70,
+			"scaleMin": 0.7,
+			"scaleMax": 1.05,
+			"speedMin": 5.0,
+			"speedMax": 30.0
+		},
+		"finishLine": "finish_line_1",
+		"audience": "audience_1"
+	},
+	"desert": {
+		"bgColour": "0xFFE100",
+		"bgLayer1": {
+			"filename": "desert_bg_layer_1",
+			"scrollingRate": 0.15
+		},
+		"bgLayer2": {
+			"filename": "desert_bg_layer_2",
+			"scrollingRate": 0.6,
+			"topScreenRatio": 0.08,
+			"bottomScreenRatio": 0.33,
+			"extraZoom": 1.05
+		},
+		"terrainSurface": "desert_surface",
+		"terrainGround": "desert_ground",
+		"terrainLines": "desert_line",
+		"decorations": "desert_decorations",
+		"cloud": {
+			"filename": "cloud",
+			"amount": 2,
+			"spawnGapMin": 250,
+			"spawnGapMax": 500,
+			"spawnYMin": 30,
+			"spawnYMax": 70,
+			"scaleMin": 0.7,
+			"scaleMax": 1.05,
+			"speedMin": 5.0,
+			"speedMax": 30.0
+		},
+		"finishLine": "finish_line_1",
+		"audience": "audience_1"
+	},
+	"snow": {
+		"bgColour": "0x00C3F7",
+		"bgLayer1": {
+			"filename": "snow_bg_layer_1",
+			"scrollingRate": 0.2
+		},
+		"bgLayer2": {
+			"filename": "snow_bg_layer_2",
+			"scrollingRate": 0.45,
+			"topScreenRatio": 0.16,
+			"bottomScreenRatio": 0.24,
+			"extraZoom": 1.2
+		},
+		"terrainSurface": "snow_surface",
+		"terrainGround": "snow_ground",
+		"terrainLines": "snow_line",
+		"decorations": "snow_decorations",
+		"cloud": {
+			"filename": "cloud",
+			"amount": 3,
+			"spawnGapMin": 250,
+			"spawnGapMax": 500,
+			"spawnYMin": 30,
+			"spawnYMax": 70,
+			"scaleMin": 0.5,
+			"scaleMax": 0.9,
+			"speedMin": 5.0,
+			"speedMax": 30.0
+		},
+		"finishLine": "finish_line_2",
+		"audience": "audience_2"
+	},
+	"beach": {
+		"bgColour": "0xEBFF29",
+		"bgLayer1": {
+			"filename": "beach_bg_layer_1",
+			"scrollingRate": 0.1
+		},
+		"bgLayer2": {
+			"filename": "beach_bg_layer_2",
+			"scrollingRate": 0.6,
+			"topScreenRatio": 0.05,
+			"bottomScreenRatio": 0.45,
+			"extraZoom": 1.2
+		},
+		"terrainSurface": "beach_surface",
+		"terrainGround": "beach_ground",
+		"terrainLines": "beach_line",
+		"decorations": "beach_decorations",
+		"cloud": {
+			"filename": "cloud",
+			"amount": 5,
+			"spawnGapMin": 250,
+			"spawnGapMax": 500,
+			"spawnYMin": 30,
+			"spawnYMax": 140,
+			"scaleMin": 0.4,
+			"scaleMax": 1.1,
+			"speedMin": 5.0,
+			"speedMax": 40.0
+		},
+		"finishLine": "finish_line_2",
+		"audience": "audience_3"
+	},
+	"cave": {
+		"bgColour": "0x231F20",
+		"bgLayer1": {
+			"filename": "cave_bg_layer_1",
+			"scrollingRate": 0.2
+		},
+		"bgLayer2": {
+			"filename": "cave_bg_layer_2",
+			"scrollingRate": 0.55,
+			"topScreenRatio": 0,
+			"bottomScreenRatio": 0.4,
+			"extraZoom": 1.1
+		},
+		"terrainSurface": "cave_surface",
+		"terrainGround": "cave_ground",
+		"terrainLines": "cave_line",
+		"decorations": "cave_decorations",
+		"cloud": null,
+		"finishLine": "finish_line_3",
+		"audience": "audience_4"
+	},
+	"spooky": {
+		"bgColour": "0x231F20",
+		"bgLayer1": {
+			"filename": "spooky_bg_layer_1",
+			"scrollingRate": 0.2
+		},
+		"bgLayer2": {
+			"filename": "spooky_bg_layer_2",
+			"scrollingRate": 0.55,
+			"topScreenRatio": 0,
+			"bottomScreenRatio": 0.4,
+			"extraZoom": 1.1
+		},
+		"terrainSurface": "spooky_surface",
+		"terrainGround": "spooky_ground",
+		"terrainLines": "spooky_line",
+		"decorations": "spooky_decorations",
+		"cloud": null,
+		"finishLine": "finish_line_4",
+		"audience": "audience_5"
+	}
+}

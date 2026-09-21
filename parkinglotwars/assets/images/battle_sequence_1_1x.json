@@ -1,0 +1,204 @@
+{"frames": {
+
+"attack_blue_radial_002.png":
+{
+	"frame": {"x":2,"y":264,"w":316,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":316,"h":272},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_green_burst1.png":
+{
+	"frame": {"x":594,"y":844,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_green_burst2.png":
+{
+	"frame": {"x":276,"y":912,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_green_burst3.png":
+{
+	"frame": {"x":2,"y":1130,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_green_centre.png":
+{
+	"frame": {"x":848,"y":594,"w":140,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":88,"w":140,"h":140},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_green_radial_001.png":
+{
+	"frame": {"x":710,"y":2,"w":272,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":272,"h":316},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_green_radial_002.png":
+{
+	"frame": {"x":320,"y":320,"w":316,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":316,"h":272},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_orange_burst1.png":
+{
+	"frame": {"x":498,"y":1098,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_orange_burst2.png":
+{
+	"frame": {"x":224,"y":1166,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_orange_burst3.png":
+{
+	"frame": {"x":2,"y":1384,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_orange_radial_001.png":
+{
+	"frame": {"x":320,"y":594,"w":272,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":272,"h":316},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_orange_radial_002.png":
+{
+	"frame": {"x":2,"y":538,"w":316,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":316,"h":272},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_purple_bg.png":
+{
+	"frame": {"x":392,"y":2,"w":316,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":316,"h":316},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_purple_burst1.png":
+{
+	"frame": {"x":720,"y":1138,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_purple_burst2.png":
+{
+	"frame": {"x":446,"y":1352,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_purple_burst3.png":
+{
+	"frame": {"x":224,"y":1420,"w":220,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":252},
+	"sourceSize": {"w":218,"h":250}
+},
+"attack_purple_radial_001.png":
+{
+	"frame": {"x":2,"y":812,"w":272,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":272,"h":316},
+	"sourceSize": {"w":313,"h":313}
+},
+"attack_purple_radial_002.png":
+{
+	"frame": {"x":638,"y":320,"w":316,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":316,"h":272},
+	"sourceSize": {"w":313,"h":313}
+},
+"battle_char_boxman.png":
+{
+	"frame": {"x":2,"y":2,"w":388,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":208,"w":388,"h":260},
+	"sourceSize": {"w":413,"h":469}
+},
+"battle_char_ko.png":
+{
+	"frame": {"x":594,"y":594,"w":252,"h":248},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":220,"w":252,"h":248},
+	"sourceSize": {"w":413,"h":469}
+},
+"battle_essence_blue.png":
+{
+	"frame": {"x":848,"y":736,"w":132,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":132},
+	"sourceSize": {"w":132,"h":132}
+},
+"battle_essence_green.png":
+{
+	"frame": {"x":816,"y":870,"w":132,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":132},
+	"sourceSize": {"w":132,"h":132}
+},
+"battle_essence_orange.png":
+{
+	"frame": {"x":816,"y":1004,"w":132,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":132},
+	"sourceSize": {"w":132,"h":132}
+},
+"fight_char_boxman.png":
+{
+	"frame": {"x":2,"y":2,"w":388,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":208,"w":388,"h":260},
+	"sourceSize": {"w":413,"h":469}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "battle_sequence_1_1x.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:6c346daf519e7d46dc39b56f6de53a66:baf542e79188a7760d0f619eeecf09da:4d94c985e17eeb3c6fd89bb97b39bc19$"
+}
+}

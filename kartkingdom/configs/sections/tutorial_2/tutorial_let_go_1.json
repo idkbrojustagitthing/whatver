@@ -1,0 +1,60 @@
+[
+	{
+		"body": {
+			"width": 2500,
+			"angle": 0
+		},
+		"type": "soft",
+		"material": "default-terrain",
+		"pickups":[
+			{
+				"id": "candy2",
+				"x": 1250,
+				"y": 75,
+				"duplicate": 0,
+				"incrementX": 0,
+				"incrementY": 0
+			}
+		],
+		"decorations": [
+			{
+				"id": "s3",
+				"x": 2000,
+				"y": 0,
+				"scale": 1.4,
+				"flip": false
+			}
+		]
+	},
+	{
+		"body": {
+			"width": 900,
+			"ramp": 400
+		},
+		"type": "soft",
+		"material": "default-terrain"
+	},
+	{
+		"body": {
+			"width": 3000,
+			"ramp": -1400
+		},
+		"type": "soft",
+		"material": "default-terrain",
+		"pickups":[
+			{
+				"id": "tutorial_2/tutorial_let_go_1",
+				"x": -300,
+				"y": 200
+			},
+			{
+				"id": "candy",
+				"x": 1000,
+				"y": 75,
+				"duplicate": 5,
+				"incrementX": 200,
+				"incrementY": 0
+			}
+		]
+	}
+]

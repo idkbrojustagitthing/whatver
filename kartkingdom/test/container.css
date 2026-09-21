@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-row.reverse {
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+#hud {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background-color: #002ace;
+  box-shadow: #000 0px 2px 2px;
+  z-index: 1;
+
+  color: #FFF;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#hud button {
+  width: 80px;
+  height: 60px;
+  margin: 10px;
+  background: #00000070;
+  border: 1px solid #FFF;
+}
+
+#hud button::before {
+  content: '';
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+#hud label {
+  margin: 10px 10px 0;
+}
+
+#hud select {
+  padding: 0 20px;
+  /* font-size: 1.2em;
+  font-weight: bold; */
+  height: max-content;
+  width: auto;
+  margin: 10px;
+}
+
+#hud #soundButton::before {
+  content: 'Mute';
+}
+
+#hud #soundButton.muted::before {
+  content: 'Unmute';
+}
+
+#hud #pauseButton::before {
+  content: 'Pause';
+}
+
+#hud #pauseButton.paused::before {
+  content: 'Play';
+}
+
+#game {
+  position: absolute;
+  overflow: hidden;
+  border: none;
+  width: 100%;
+  height: calc(100% - 80px);
+  top: 80px;
+}
+
+/**
+ * All dimensions are in landscape. Sizes gathered from:
+ * https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html
+ */
+
+#game[class^="iphone-"] {
+  left: 50%;
+  top: calc(50% + 40px);
+  transform: translate(-50%, -50%);
+}
+
+#game.iphone-se {
+  width: 568px;
+  height: 320px;
+}
+
+#game.iphone-6 {
+  width: 667px;
+  height: 375px;
+}
+
+#game.iphone-plus {
+  width: 736px;
+  height: 414px;
+}
+
+#game.iphone-x {
+  width: 812px;
+  height: 375px;
+}
+
+#game.ipad-mini {
+  width: 1024px;
+  height: 768px;
+}
+
+#game.ipad-10 {
+  width: 1112px;
+  height: 834px;
+}
+
+#game.ipad-12 {
+  width: 1366px;
+  height: 1024px;
+}

@@ -1,0 +1,109 @@
+**********Common1754********** (３前進展⑱打つ手なし)
+{サラ}
+#Message#
+\C[4]（ダメだ…！　ヒントを使う以外の方法が
+　見つからない…!!）\.
+##
+
+#Message#
+\.\C[4]（もしも　\N[4]の言うとおり…
+　\C[10]赤\C[4]としか出ないなら…）
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（結局　３分の１…）
+##
+
+#Message#
+\.\C[4]（それに…　ギンのヒツギは…　もう判明してる…）
+##
+
+{SE: shock1}
+#Message#
+\.\C[4]（外せば　今度こそ　ギンの命は…無い……!!）
+##
+
+{ギン} [ギン / cara9-1]
+{SE: Accent28-1}
+#Message#
+「やってみるしか…無いニャン」
+##
+
+{サラ}
+#Message#
+\.「ギン…」
+##
+
+{ギン} [ギン / cara9-12]
+{SE: Accent21-1}
+#Message#
+\.「覚悟…できたワン」
+##
+
+[ギン / cara9-22]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ボク…　もう　どんな結果になっても　大丈夫だから…」
+##
+
+[ギン / cara9-21]
+{SE: Accent40-1}
+#Message#
+\.「一緒に…　立ち向かって欲しいニャン…！」
+##
+
+{サラ}
+#Message#
+\.「…」
+##
+
+#Message#
+\.「ギン…」
+##
+
+#Choice#
+わかった
+立ち向う
+##
+
+<わかった>
+
+{サラ} [ギン / cara9-21]
+{SE: Accent28-1}
+#Message#
+「ああ…　わかったよ」
+##
+
+<立ち向う>
+
+{サラ} [ギン / cara9-21]
+{SE: Accent28-1}
+#Message#
+「立ち向かおう…\N[4]に」
+##
+
+<Choice End>
+
+{サラ} [ギン / cara9-21]
+#Message#
+\C[4]（私も…　覚悟を決めるんだ…）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<Condition End>
+
+{N/A}
+{SE: WON-machine_check3-1}
+#Message#
+
+　　　　　　　　　　　\C[3]最後のヒント
+##
+
+{サラ}
+{SE: sceneswitch2}
+#Message#
+\C[4]（光らないヒツギに…ヒントを使ってみよう）
+##
+

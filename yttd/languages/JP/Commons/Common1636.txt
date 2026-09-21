@@ -1,0 +1,188 @@
+**********Common1636********** (３前進展①灯ろう使う)
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-10]
+{SE: Accent28-1}
+#Message#
+「灯ろうだって…？」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-2]
+{SE: Accent28-1}
+#Message#
+「なに…灯ろうだと…？」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-18]
+{SE: Accent28-1}
+#Message#
+「面白い…　灯ろうか…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「灯ろうの光なら…　普通では見えない物も映し出します！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-10]
+#Message#
+\.「ですが…　それは　電池切れになったんじゃ…」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-1]
+#Message#
+\.「でも　それって電池切れになったんじゃないの？」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-5]
+{SE: Accent40-1}
+#Message#
+\.「オレが手に入れたヤツを使うぜよ」
+##
+
+{N/A}
+{SE: button17}
+#Message#
+\.\C[3]Qタロウから灯ろうをもらった。
+##
+
+{Qタロウ} [Qタロウ / cara4-6]
+#Message#
+\.「おそらく　サラの灯ろうと同じ物じゃき」
+##
+
+{サラ}
+#Message#
+\.「ありがとうございます…！」
+##
+
+{SE: sceneswitch2}
+#Message#
+\.「さあ　試してみましょう…！」
+##
+
+{SE: Accent28-1}
+#Message#
+\C[4]（これは…）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-22]
+#Message#
+\.「ヒツギが…光りました…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-7]
+#Message#
+\.「ヒツギが…光った…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-11]
+#Message#
+\.「え…!?　え…!?　外で何か起きてるの!?」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+{ギン} [ギン / cara9-7]
+#Message#
+\.「ニャ…!?　光ったって　どういう事だワン!?」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+{サラ}
+#Message#
+\C[4]（私達にも　詳しい事は　わからない…けど）
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[4]（このヒツギには…何か細工がある…！）
+##
+
+{SE: Accent40-1}
+#Message#
+\.\C[4]（見分けが…　つくかもしれない…！）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{N/A}
+#Message#
+
+　　　　　　　　　　\C[3]光るヒツギの謎
+##
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギは　灯ろうの光で発光する特殊な素材で
+　作られているんだろうね…」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+{ギン} [ギン / cara9-6]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギは　灯ろうを使うと光るすっごい素材で
+　作られているんだニャン…！」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-11]
+#Message#
+\.「ねえねえ！　どういう状況!?
+　光ったヒツギは何台あるの!?　教えてよ！」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-12]
+#Message#
+\.「サラ先輩　グルっと見渡して
+　光ったヒツギがいくつあるのか教えてよ！」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-6]
+{SE: Accent21-1}
+#Message#
+\.「オレ達が　別行動の時も　ヒツギは光ってたぜよ」
+##
+

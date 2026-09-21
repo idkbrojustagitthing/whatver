@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<font>
+  <info face="Consolas Numbers 72 Bold" size="72" bold="1" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="2" padding="1,1,1,1" spacing="1,1" outline="0"/>
+  <common lineHeight="72" base="57" scaleW="256" scaleH="128" pages="1" packed="0" alphaChnl="0" redChnl="4" greenChnl="4" blueChnl="4"/>
+  <pages>
+    <page id="0" file="consolas_numbers_72_bold_0.png" />
+  </pages>
+  <chars count="10">
+    <char id="48" x="0" y="0" width="33" height="43" xoffset="0" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="49" x="0" y="44" width="30" height="42" xoffset="2" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="50" x="130" y="0" width="29" height="43" xoffset="2" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="51" x="160" y="0" width="29" height="43" xoffset="2" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="52" x="219" y="0" width="34" height="42" xoffset="-1" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="53" x="190" y="0" width="28" height="43" xoffset="3" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="54" x="34" y="0" width="31" height="43" xoffset="1" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="55" x="31" y="44" width="30" height="42" xoffset="1" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="56" x="66" y="0" width="31" height="43" xoffset="1" yoffset="15" xadvance="34" page="0" chnl="15" />
+    <char id="57" x="98" y="0" width="31" height="43" xoffset="0" yoffset="15" xadvance="34" page="0" chnl="15" />
+  </chars>
+</font>

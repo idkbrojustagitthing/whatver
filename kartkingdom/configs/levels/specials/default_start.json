@@ -1,0 +1,18 @@
+{
+	"spawnAt": 1400,
+	"terrain": {
+		"body": {
+			"width": 2000,
+			"ramp": 0
+		},
+		"type": "hard",
+		"material": "default-terrain"
+	},
+	"decorations": [
+		{
+			"id": "tree",
+			"x": 100,
+			"y": 0
+		}
+	]
+}

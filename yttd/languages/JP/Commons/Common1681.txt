@@ -1,0 +1,493 @@
+**********Common1681********** (３前進展⑦マイ不審)
+{サラ} [ヒナコ / cara93-1]
+{SE: Accent28-1}
+#Message#
+「ヒナコ…　それはどうだろうか」
+##
+
+{ヒナコ} [ヒナコ / cara93-10]
+#Message#
+\.「なにが…？」
+##
+
+{サラ}
+#Message#
+\.「\N[4]が施設のすべての機械を
+　自由自在に使えるなら…」
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「なぜ…　IDカードなんて　作る必要がある…？」
+##
+
+{ヒナコ} [ヒナコ / cara93-4]
+#Message#
+\.「そ　それは…」
+##
+
+[ヒナコ / cara93-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「別に…　必要なかったんじゃないの…？」
+##
+
+[ヒナコ / cara93-3]
+#Message#
+\.「私達に攻略させる為に
+　わざわざ用意したんでしょ…？」
+##
+
+[ヒナコ / cara93-5]
+{SE: Accent40-1}
+#Message#
+\.「きっと…　そんな物無くても　顔認証とか
+　使ってたんだよ」
+##
+
+{Qタロウ} [Qタロウ / cara4-6]
+#Message#
+\.「そんな機能　どこにも無かったぜよ」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-16]
+{SE: Accent21-1}
+#Message#
+\.「あったのは　\C[2]IDカード認証\C[0]と　\C[2]指紋認証\C[0]だけです…」
+##
+
+<Else>
+
+{ソウ} [ソウ / cara5-15]
+{SE: Accent21-1}
+#Message#
+\.「あったのは　\C[2]IDカード認証\C[0]と　\C[2]指紋認証\C[0]だけ…」
+##
+
+<Condition End>
+
+{Qタロウ} [Qタロウ / cara4-9]
+#Message#
+\.「そうぜよ…
+　\N[4]が　いくら組織の人間でも…」
+##
+
+[Qタロウ / cara4-10]
+{SE: Accent28-1}
+#Message#
+\.「\C[2]登録された\C[0]カードがなきゃ　いじれない機械も
+　あったがや」
+##
+
+{ヒナコ} [ヒナコ / cara93-9]
+#Message#
+\.「と　登録されたカードって…」
+##
+
+[ヒナコ / cara93-10]
+{SE: Accent41-1}
+#Message#
+\.「だったらなんで　\C[2]マイの指紋\C[0]は　登録されてたのさ」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-10]
+#Message#
+\.「………」
+##
+
+[マイ / cara92-13]
+{SE: Accent21-1}
+#Message#
+\.「え……？」
+##
+
+[マイ / cara92-14]
+#Message#
+\.「ちょっと待ってよ…!!　そこで私が疑われるの…!?」
+##
+
+<Else>
+
+{Qタロウ} [Qタロウ / cara4-6]
+#Message#
+\.「………」
+##
+
+[Qタロウ / cara4-12]
+{SE: Accent21-1}
+#Message#
+\.「え……？」
+##
+
+[Qタロウ / cara4-13]
+#Message#
+\.「ちょっと待つがや…!!　マイを疑うぜよ…!?」
+##
+
+<Condition End>
+
+[Qタロウ / cara4-6]
+#Message#
+\.「それは間違いぜよ!!　マイは組織側じゃねえ!!」
+##
+
+{ヒナコ} [ヒナコ / cara93-10]
+{SE: Accent21-1}
+#Message#
+\.「情で語んないでよ…　レスラーのおっさん」
+##
+
+{ギン} [ギン / cara9-6]
+#Message#
+\.「筋肉ゴリラを悪く言うなニャン!!」
+##
+
+{サラ}
+#Message#
+\.「み　みんな落ち着いて…！
+　悪人を探してるワケでは…！」
+##
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-18]
+#Message#
+\.「仕方ねえだろ…！　疑惑のあるヤツが
+　人間の可能性が高いんだ…！」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+[クルマダ / cara95-22]
+{SE: Accent21-1}
+#Message#
+\.「こっちだって本当は…　仲間を疑いたく
+　ねえんだよ…!!」
+##
+
+{マイ} [マイ / cara92-14]
+#Message#
+\.「クルマダくん…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{クルマダ} [クルマダ / cara95-22]
+{SE: Accent21-1}
+#Message#
+\.「こっちだって本当は…　死んじまった仲間を疑いたく
+　ねえんだよ…!!」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-8]
+#Message#
+\.「仕方ないじゃん…！　一番怪しい人が
+　人間の可能性も高いんでしょ…!?」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+[アンズ / cara96-12]
+{SE: Accent21-1}
+#Message#
+\.「私だって本当は…　仲間を疑いたくなんかないよ…！」
+##
+
+{マイ} [マイ / cara92-14]
+#Message#
+\.「アンズちゃん…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{アンズ} [アンズ / cara96-12]
+{SE: Accent21-1}
+#Message#
+\.「私だって本当は…　死んじゃった仲間を
+　疑いたくなんかないよ…！」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-8]
+#Message#
+\.「仕方ないんだ…！　疑わしい者が
+　人間の可能性も高い…！」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+[ハヤサカ / cara94-15]
+{SE: Accent21-1}
+#Message#
+\.「私達だって本当は…　仲間を疑う事は苦しいんだ…！」
+##
+
+{マイ} [マイ / cara92-14]
+#Message#
+\.「ハヤサカ…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{ハヤサカ} [ハヤサカ / cara94-15]
+{SE: Accent21-1}
+#Message#
+\.「私達だって本当は…　死んでしまった仲間を
+　疑う事はしたくない…！」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-12]
+#Message#
+\.「仕方ないでしょ…！　疑惑が濃いヤツが
+　人間の可能性も高いじゃん！」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+[ヒナコ / cara93-13]
+{SE: Accent21-1}
+#Message#
+\.「仲間のこと…　喜んで疑ってるとでも　思ってるの…!?」
+##
+
+{マイ} [マイ / cara92-14]
+#Message#
+\.「ヒナコちゃん…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-13]
+{SE: Accent21-1}
+#Message#
+\.「死んだ仲間のこと…　喜んで疑ってるとでも
+　思ってるの…!?」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-17]
+#Message#
+\.「……」
+##
+
+[マイ / cara92-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「わかったよ…」
+##
+
+[マイ / cara92-19]
+#Message#
+\.「だったら　みんなの手で証明して欲しい…」
+##
+
+[マイ / cara92-24]
+#Message#
+\.「私が…みんなの仲間だって事…!!」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-9]
+#Message#
+\.「………」
+##
+
+[Qタロウ / cara4-10]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「わかったぜよ…」
+##
+
+[Qタロウ / cara4-6]
+#Message#
+\.「だったら　オレ達の手で証明してやるぜよ…」
+##
+
+#Message#
+\.「マイが　オレ達の仲間だって事…!!」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is OFF>
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is OFF>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{N/A}
+#Message#
+
+　　　　　　　　　　\C[3]マイの指紋認証
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-22]
+{SE: Accent21-1}
+#Message#
+「マイさんだけ　指紋認証をクリアできるのは
+　ずっとおかしいなとは　思ってました…」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-6]
+{SE: Accent21-1}
+#Message#
+「マイだけ　指紋認証をクリアできるのは
+　変だとは　思ってたけどね…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-14]
+#Message#
+「私だって　なんで自分の指紋が登録されてたか
+　わからないの…！　本当だよ…！」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-9]
+#Message#
+「マイだって　なんぜ自分の指紋が登録されてたのか
+　分かってない様子だったぜよ…！」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-15]
+{SE: se_maoudamashii_magical14}
+#Message#
+「それに　マイさんは犠牲者の映像で　ハッキリと
+　亡くなる所が　記録されてたよ…」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+{ギン} [ギン / cara9-13]
+{SE: se_maoudamashii_magical14}
+#Message#
+「それに　パン屋さんは…　犠牲者の映像に亡くなる所が
+　しっかりと映ってたニャン…」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-2]
+{SE: horror_piano chord3}
+#Message#
+「…全部作り物　…態度も演技
+　デスゲームを進行させる役だったかもしれない…」
+##
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-20]
+{SE: flash-of-light-3}
+#Message#
+「猫被ってて怖い部分はあったけど…
+　マイさんは　悪党になりきれる人じゃねえよ…！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-41]
+{SE: Accent42-1}
+#Message#
+「猫被ってて怖い部分はあったけど…
+　マイさんは　オレみたいに　悪党になりきれる人じゃない」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-2]
+#Message#
+「マイちゃんは　自分が人形だと信じてたから
+　Qタロウさんを　刺しちゃったんだよね…！」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-18]
+#Message#
+「指紋認証の件は　全部\N[4]のきまぐれだ…！
+　考える価値ねえよ…！」
+##
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+

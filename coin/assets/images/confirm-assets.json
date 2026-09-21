@@ -1,0 +1,23 @@
+{
+"images": ["./assets/images/confirm-assets.png"],
+"frames": [
+
+    [234, 320, 90, 85], 
+    [118, 320, 114, 114], 
+    [234, 407, 90, 83], 
+    [2, 320, 114, 114], 
+    [2, 2, 389, 316]
+],
+"animations": {
+    
+        "BtnExit":[0], 
+        "BtnNo":[1], 
+        "BtnView":[2], 
+        "BtnYes":[3], 
+        "ConfirmBackground":[4]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:973879fab2953a97e17ccf63883ff812:0fb31badd39c1587d8b2b9f548780ec6:fe55bffe0754605760b0cf1b47680f7d$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

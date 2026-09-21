@@ -1,0 +1,195 @@
+{
+	"playerCharacters":
+	[
+		{
+			"id": 0,
+			"name": "K.O.",
+			"fullName": "Kaio Kincaid",
+			"spritePrefix": "ko",
+			"speed": 3,
+			"damage": 20,
+			"health": 70,
+			"attackRange": 1,
+			"essence": "STR",
+			"specialAbility": 
+			{
+				"type": "EXTRA_MOVE",
+				"rechargeTime": 1
+			},
+			"unlockCoins": 0,
+			"improveCoins": 1000,
+			"preBattle":
+			{
+				"priority": 0,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": -50
+			},
+			"improvedStats":
+			[
+				{
+					"type": "SPEED",
+					"value": 4
+				},
+				{
+					"type": "DAMAGE",
+					"value": 30
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "Enid",
+			"fullName": "Enid",
+			"spritePrefix": "enid",
+			"speed": 4,
+			"damage": 10,
+			"health": 60,
+			"attackRange": 2,
+			"essence": "AGI",
+			"specialAbility": 
+			{
+				"type": "EXTRA_ATTACK",
+				"rechargeTime": 2
+			},
+			"unlockCoins": 0,
+			"improveCoins": 1000,
+			"preBattle":
+			{
+				"priority": 1,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			},
+			"improvedStats":
+			[
+				{
+					"type": "SA_RECHARGE_TIME",
+					"value": 1
+				},
+				{
+					"type": "HEALTH",
+					"value": 70
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Rad",
+			"fullName": "Rad",
+			"spritePrefix": "rad",
+			"speed": 3,
+			"damage": 10,
+			"health": 80,
+			"attackRange": 2,
+			"essence": "INT",
+			"specialAbility": 
+			{
+				"type": "HEAL_OTHERS",
+				"rechargeTime": 3
+			},
+			"unlockCoins": 0,
+			"improveCoins": 1000,
+			"preBattle":
+			{
+				"priority": 2,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			},
+			"improvedStats":
+			[
+				{
+					"type": "ATTACK_RANGE",
+					"value": 3
+				},
+				{
+					"type": "SA_RECHARGE_TIME",
+					"value": 2
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Carol",
+			"fullName": "Carol",
+			"spritePrefix": "carol",
+			"speed": 3,
+			"damage": 20,
+			"health": 60,
+			"attackRange": 2,
+			"essence": "INT",
+			"specialAbility": 
+			{
+				"type": "HEALING_POWER",
+				"rechargeTime": 2
+			},
+			"unlockCoins": 500,
+			"improveCoins": 1000,
+			"preBattle":
+			{
+				"priority": 1,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": 0
+			},
+			"improvedStats":
+			[
+				{
+					"type": "HEALTH",
+					"value": 70
+				},
+				{
+					"type": "SPEED",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Mr Gar",
+			"fullName": "Mr Gar",
+			"spritePrefix": "gar",
+			"speed": 2,
+			"damage": 30,
+			"health": 80,
+			"attackRange": 1,
+			"essence": "STR",
+			"specialAbility": 
+			{
+				"type": "SPLASH_DAMAGE",
+				"rechargeTime": 3
+			},
+			"unlockCoins": 500,
+			"improveCoins": 1000,
+			"preBattle":
+			{
+				"priority": 3,
+				"offsetY": 0
+			},
+			"combat":
+			{
+				"offsetY": -50
+			},
+			"improvedStats":
+			[
+				{
+					"type": "SA_RECHARGE_TIME",
+					"value": 2
+				},
+				{
+					"type": "SPEED",
+					"value": 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,672 @@
+{
+  "SPLASH_TITLE": {
+    "es": "Guerra en el Estacionamiento",
+    "de": "Parkplatz-Krieg",
+    "en": "Parking Lot Wars",
+    "fr": "Guerre sur le parking",
+    "it": "Guerre dei parcheggi",
+    "pl": "Walki Parkingowe",
+    "ru": "Войны за парковку",
+    "tr": "Otopark Savaşları"
+  },
+  "KO_POPUP_00": {
+    "es": "¡Hola! Veo que esta es tu primera vez aquí. Dejame enseñarte como jugar.",
+    "de": "Hallo, ich sehe, dass Du zum ersten Mal spielst. Ich zeige Dir, wie es geht.",
+    "en": "Hey, I see it is your first time. Let me show you how to play.",
+    "fr": "Salut ! Je vois que tu joues pour la première fois. Je vais te montrer comment ça marche.",
+    "it": "Ehi, vedo che è la tua prima volta. Lascia che ti mostri come giocare.",
+    "pl": "Hej, widzę, że to twój pierwszy raz. Pozwól, że pokażę Ci jak grać.",
+    "ru": "Эй, я смотрю ты тут впервые. Давай расскажу тебе правила игры.",
+    "tr": "Hey, gördüğüme göre buralarda yenisin. Sana oyunun nasıl oynandığını göstereyim."
+  },
+  "KO_POPUP_01": {
+    "es": "¡Oh no! Esta vez perdimos, pero recuerda...\n\n¡Un guerrero de verdad se fortalece con cada derrota! ",
+    "de": "Ach nein! Wir haben diese Zeit verloren,\n\naber denken Sie daran ... Der wahre Kämpfer wird\n\nmit jeder Niederlage stärker!",
+    "en": "Oh, no! We lost this time, but remember...\n\nThe true fighter gets stronger with each defeat!",
+    "fr": "Oh non ! Nous avons perdu cette fois,\n\nmais n'oublie pas... Un vrai guerrier devient de plus en plus\n\nfort avec chaque défaite !",
+    "it": "Oh no! Questa volta abbiamo perso, ma ricorda...\n\nI veri guerrieri escono rinforzati\n\nda ogni sconfitta!",
+    "pl": "O, nie! Tym razem przegraliśmy, ale pamiętaj...\n\nPrawdziwy wojownik staje się silniejszy\n\nz każdą porażką!",
+    "ru": "Ай-яй-яй! В этот раз мы проиграли, но помни:\n\nистинного бойца поражения делают только сильнее!",
+    "tr": "Olamaz! Bu seferkini kaybettik ama unutma...\n\nGerçek savaşçılar, mağlubiyetlerle güçlenir!"
+  },
+  "KO_POPUP_02": {
+    "es": "¡Derrota a Box-More en este desafío de Ta-Te-Ti en Lakewood Plaza!\n\nCompleta 3 cuadros en fila, columna o diagonal para ganar.",
+    "de": "Besiege Box-More in einem Tic-Tac-Toe Wettbewerb über Lakewood Plaza!\n\nVervollständige 3 Quadrate in einer Reihe, Spalte oder diagonal, um das Spiel zu gewinnen.",
+    "en": "Defeat Box-More in a tic-tac-toe challenge across Lakewood Plaza!\n\nComplete 3 squares in a row, column or diagonal to win the game.",
+    "fr": "Bats Box-More dans le défi tic-tac-toe dans Lakewood Plaza !\n\nRempli 3 carrés dans une ligne, une colonne ou une diagonale pour gagner au jeu. ",
+    "it": "Sconfiggi Box-More in una sfida a Tris a Lakewood Plaza!\n\nPer vincere la partita devi completare una fila di tre quadrati in orizzontale, verticale o diagonale.",
+    "pl": "Pokonaj Box-More w wyzwaniu w kółko i krzyżyk wzdłuż Lakewood Plaza!\n\nUkończ trzy kwadraty w linii pionowo, poziomo lub po przekątnej, aby wygrać grę.",
+    "ru": "Разбей Box-More в  'крестики-нолики' в Lakewood Plaza! Чтобы победить\n\nв этой игре необходимо выиграть в 3 квадратах подряд по горизонтали, вертикали или диагонали.",
+    "tr": "Box-More'u Lakewood'un çeşitli yerlerinde üç taş oyununda yen!\n\nOyunu kazanmak için üç sütun, sıra veya çapraza aynı taşı yerleştir."
+  },
+  "DEFEND": {
+    "es": "Defiende",
+    "de": "Verteidige",
+    "en": "Defend",
+    "fr": "Défends",
+    "it": "Difesa",
+    "pl": "Broń się!",
+    "ru": "Защищайся",
+    "tr": "Savun"
+  },
+  "ATTACKS!": {
+    "es": "¡Ataca!",
+    "de": "Angriff!",
+    "en": "Attacks!",
+    "fr": "A l'attaque !",
+    "it": "Attacca!",
+    "pl": "Atakuj!",
+    "ru": "Атакуй!",
+    "tr": "Saldır!"
+  },
+  "ATTACK!": {
+    "es": "¡Ataca!",
+    "de": "Angriff!",
+    "en": "Attacks!",
+    "fr": "A l'attaque !",
+    "it": "Attacca!",
+    "pl": "Atakuj!",
+    "ru": "Атакуй!",
+    "tr": "Saldır!"
+  },
+  "END_TURN": {
+    "es": "Fin del Turno",
+    "de": "Rundenende",
+    "en": "End Turn",
+    "fr": "Fin du tour",
+    "it": "Fine turno",
+    "pl": "Skończ turę",
+    "ru": "Конец хода",
+    "tr": "Sıranı Bitir"
+  },
+  "END_TURN_WARNING": {
+    "es": "¿Estás seguro? Todavía te quedan acciones.",
+    "de": "Bist Du sicher? Du hast noch Aktionen übrig.",
+    "en": "Are you sure? You still have actions left.",
+    "fr": "Es-tu sûr ? Il te reste toujours quelques actions à utiliser.",
+    "it": "Sei sicuro? Hai ancora mosse.",
+    "pl": "Jesteś pewien? Wciąż masz ruchy do wykorzystania.",
+    "ru": "Точно? Ещё есть ходы",
+    "tr": "Emin misin? Bütün hareketleri kullanmadın."
+  },
+  "LEVEL_SELECTION": {
+    "es": "Campo de Batalla",
+    "de": "Kampfplätze",
+    "en": "Battle Grounds",
+    "fr": "Champ de bataille",
+    "it": "Campi di battaglia",
+    "pl": "Pola Bitw",
+    "ru": "Районы боёв",
+    "tr": "Savaş Alanı"
+  },
+  "TEAM_SETUP": {
+    "es": "Elije a tus Guerreros",
+    "de": "Teameinstellungen",
+    "en": "Team Setup",
+    "fr": "Réglages de l'équipe",
+    "it": "Configura la squadra",
+    "pl": "Wybór drużyny",
+    "ru": "Управление группы",
+    "tr": "Takım Kurma"
+  },
+  "UNLOCK_NEW_HERO": {
+    "es": "Desbloquear Nuevo Héroe",
+    "de": "Neuen Held freischalten",
+    "en": "Unlock New Hero",
+    "fr": "Débloquer un nouveau héros",
+    "it": "Sblocca un nuovo eroe",
+    "pl": "Odblokuj Nowego Bohatera",
+    "ru": "Открыть нового героя",
+    "tr": "Yeni Kahraman Aç"
+  },
+  "UNLOCK_POTENTIAL": {
+    "es": "Mejorar",
+    "de": "Potential freischalten",
+    "en": "Unlock Potential",
+    "fr": "Débloquer le potentiel",
+    "it": "Sblocca un potenziamento",
+    "pl": "Ulepsz",
+    "ru": "Раскрыть потенциал",
+    "tr": "Gücü Aç"
+  },
+  "AWESOME": {
+    "es": "Sorprendente",
+    "de": "Super",
+    "en": "Awesome",
+    "fr": "Parfait",
+    "it": "Fantastico",
+    "pl": "Doskonale",
+    "ru": "Обалдеть",
+    "tr": "Harika"
+  },
+  "NO_COINS": {
+    "es": "¡Uuups! No hay monedas suficientes.",
+    "de": "Ups! Nicht genug Münzen.",
+    "en": "Oops! Not enough coins.",
+    "fr": "Oups ! Pas assez de pièces.",
+    "it": "Oops! Non hai abbastanza monete.",
+    "pl": "Ups! Masz za mało monet.",
+    "ru": "Ой! Мало монет",
+    "tr": "Ups! Yetersiz para."
+  },
+  "BAD_LUCK": {
+    "es": "Mala Suerte",
+    "de": "Pech gehabt",
+    "en": "Bad Luck",
+    "fr": "Pas de chance",
+    "it": "Che sfortuna!",
+    "pl": "Co za pech",
+    "ru": "Не повезло",
+    "tr": "Kötü Şans"
+  },
+  "TEAM_BOX_MORE": {
+    "es": "Equipo Box-More",
+    "de": "Team Box-More",
+    "en": "Team Box-More",
+    "fr": "Équipe Box-More",
+    "it": "Squadra Box-More",
+    "pl": "Drużyna Box-More",
+    "ru": "Группа Box-More",
+    "tr": "Box-More Takımı"
+  },
+  "TEAM_LAKEWOOD": {
+    "es": "Equipo Lakewood",
+    "de": "Team Lakewood",
+    "en": "Team Lakewood",
+    "fr": "Équipe Lakewood",
+    "it": "Squadra Lakewood",
+    "pl": "Drużyna Lakewood",
+    "ru": "Группа Lakewood",
+    "tr": "Lakewood Takımı"
+  },
+  "WINS": {
+    "es": "Gana",
+    "de": "Gewinnt",
+    "en": "Wins",
+    "fr": "Gagne",
+    "it": "Vince",
+    "pl": "Wygrywa",
+    "ru": "Победы",
+    "tr": "Zaferler"
+  },
+  "AMAZING": {
+    "es": "Increible",
+    "de": "Super",
+    "en": "Amazing",
+    "fr": "Parfait",
+    "it": "Sorprendente",
+    "pl": "Niesamowite",
+    "ru": "Удивительно",
+    "tr": "İnanılmaz"
+  },
+  "RUBBISH": {
+    "es": "Basura",
+    "de": "Schlecht",
+    "en": "Rubbish",
+    "fr": "Pas bien",
+    "it": "Spazzatura",
+    "pl": "Śmieci",
+    "ru": "Дрянь",
+    "tr": "Saçmalık"
+  },
+  "GAME_OVER_GOOD": {
+    "es": "Lakewood Plaza es el mejor",
+    "de": "Lakewood Plaza ist besser",
+    "en": "Lakewood Plaza Rules",
+    "fr": "Règles de Lakewood Plaza",
+    "it": "Lakewood Plaza è il migliore",
+    "pl": "Zasady Lakewood Plaza",
+    "ru": "Правила Lakewood Plaza",
+    "tr": "Lakewood Plaza 1 Numara"
+  },
+  "GAME_OVER_BAD": {
+    "es": "Box-More te ha derrotado",
+    "de": "Box-More hat Dich besiegt",
+    "en": "Box-More defeated you",
+    "fr": "Box-More t'a battu",
+    "it": "Box-More ti ha sconfitto",
+    "pl": "Box-More cie pokonał",
+    "ru": "Box-More разбил тебя",
+    "tr": "Box-More'a yenildin"
+  },
+  "DOUBLE_ATTACK": {
+    "es": "Ataque Extra",
+    "de": "Extra-Angriff",
+    "en": "Extra Attack",
+    "fr": "Attaque Extra",
+    "it": "Attacco extra",
+    "pl": "Dodatkowy Atak",
+    "ru": "Дополнительная атака",
+    "tr": "Ekstra Saldırı"
+  },
+  "SPLASH_DAMAGE": {
+    "es": "Daño en Área",
+    "de": "Wasserschaden",
+    "en": "Splash Damage",
+    "fr": "Splash Damage",
+    "it": "Danno a goccia",
+    "pl": "Obrażenia Rozpryskowe",
+    "ru": "Урон от разрыва",
+    "tr": "Sıçrama Hasarı"
+  },
+  "DOUBLE_MOVE": {
+    "es": "Movimiento Extra",
+    "de": "Extra-Bewegung",
+    "en": "Extra Move",
+    "fr": "Mouvement Extra",
+    "it": "Mossa extra",
+    "pl": "Dodatkowy Ruch",
+    "ru": "Дополнительный ход",
+    "tr": "Ekstra Hareket"
+  },
+  "HEAL": {
+    "es": "Sanar",
+    "de": "Heal",
+    "en": "Heal",
+    "fr": "Soigne",
+    "it": "Heile",
+    "pl": "Lecz",
+    "ru": "Лечение",
+    "tr": "İyileştir"
+  },
+  "UNDO": {
+    "es": "Deshacer",
+    "de": "Rückgängig machen",
+    "en": "Undo",
+    "fr": "Annuler",
+    "it": "Annulla",
+    "pl": "Cofnij",
+    "ru": "Назад",
+    "tr": "Geri Al"
+  },
+  "TUTORIAL_00_00": {
+    "es": "¡Bienvenido!",
+    "de": "Willkommen!",
+    "en": "Welcome!",
+    "fr": "Bienvenue !",
+    "it": "Benvenuto!",
+    "pl": "Witaj!",
+    "ru": "Приветствую!",
+    "tr": "Hoş geldin!"
+  },
+  "TUTORIAL_00_01": {
+    "es": "Este es el estacionamiento, donde combatimos con los malvados robots de Box-More",
+    "de": "Das ist der Parkplatz, auf dem wir gegen Box-Mores böse Roboter kämpfen.",
+    "en": "This is the parking lot, where we fight Box-More's evil robots.",
+    "fr": "C'est le parking où on se bat contre les robots diaboliques de Box-More.",
+    "it": "Questo è il parcheggio dove combatterai contro i malvagi robot di Box-More.",
+    "pl": "To parking, na którym walczymy ze złymi robotami Box-More.",
+    "ru": "Это - парковка, на которой ты будешь драться со злыми роботами Box-More.",
+    "tr": "Burası, Box-More'un şeytani robotlarıyla savaştığımız otopark alanı."
+  },
+  "TUTORIAL_00_02": {
+    "es": "Comienza elijiendome a mí",
+    "de": "Leg los, indem Du mich auswählst.",
+    "en": "Start by selecting me.",
+    "fr": "Commence par me sélectionner",
+    "it": "Inizia selezionando me.",
+    "pl": "Rozpocznij od wybrania mnie.",
+    "ru": "Начни с щелчка по мне.",
+    "tr": "Beni seçerek başla."
+  },
+  "TUTORIAL_01_00": {
+    "es": "¡Bien hecho! ahora podes ver mi fuerza, movimiento y rango de ataque... ¡Soy bastante fuerte!",
+    "de": "Cool, jetzt kannst Du meine Werte, Bewegung und Angriffsreichweite sehen! Sieh' sie Dir an, ich bin ziemlich stark.",
+    "en": "Cool, now you can see my stats, movement and attack range! Take a look at them, I'm pretty strong.",
+    "fr": "Cool, maintenant tu peux voir mes statistiques et la sélection de mes mouvements et de mes attaques. Jettes-y un coup d'œil, je suis très fort !",
+    "it": "Ben fatto! Ora puoi vedere le mie statistiche, le mie mosse e le mie distanze di attacco! Dagli un'occhiata, sono piuttosto forte.",
+    "pl": "Świetnie, teraz możesz zobaczyć moje statystyki, ruchy i zasięg ataku! Spójrz na nie, jestem dość silny.",
+    "ru": "Класс! Вот моя статистика, ходы и дальность атаки! Посмотри-ка, я довольно сильный.",
+    "tr": "Güzel. Şimdi beni özelliklerimi, hareket hakkımı ve saldırı alanımı görebilirsin. Baksana, ne kadar güçlüyüm!"
+  },
+  "TUTORIAL_02_00": {
+    "es": "¡Oh no! Box-More ha venido a atacarnos. ¡Démosle su merecido!",
+    "de": "Oh nein! Box-More ist eingetroffen. Wir vernichten sie!",
+    "en": "Oh, no! Box-More has just arrived. Let's take them out!",
+    "fr": "Oh non ! Box-More est arrivé. Occupons-nous de lui !",
+    "it": "Oh no! Box-More è appena arrivato. Facciamoli fuori!",
+    "pl": "O, nie! Box-More właśnie przyszedł. Załatwmy ich!",
+    "ru": "Ну вот! Box-More появился. Давай-ка с ним разберёмся!",
+    "tr": "Olamaz! Box-More geldi. Şunlara günlerini gösterelim!"
+  },
+  "TUTORIAL_02_01": {
+    "es": "Mi rango de ataque es solo 1, necesito acercarme a Jethro para atacarlo.",
+    "de": "Meine Angriffsreichweite ist nur 1, also muss ich näher herangehen, um Jethro anzugreifen.",
+    "en": "My attack range is just 1, so I need to get closer to attack Jethro.",
+    "fr": "Mon niveau d'attaque est uniquement de 1, j'ai besoin de m'approcher un peu plus pour attaquer Jethro.",
+    "it": "La mia distanza di attacco è di una sola casella, quindi ho bisogno di avvicinarmi ancora per attaccare Jethro.",
+    "pl": "Zasięg mojego ataku to jedynie 1, także muszę muszę podejść bliżej, żeby zaatakować Jethro.",
+    "ru": "Дальность моей атаки всего 1, поэтому мне нужно подойти, чтобы напасть на Джетро.",
+    "tr": "Saldırı alanım sadece 1 olduğu için Jethro'ya saldırabilmem için biraz daha yakınlaşmam gerek."
+  },
+  "TUTORIAL_02_02": {
+    "es": "Mueveme a su lado para poder hacerlo.",
+    "de": "Beweg mich neben ihn und ich tue es!",
+    "en": "Move me next to him and I'll do it!",
+    "fr": "Approche-moi de lui et je vais le faire.",
+    "it": "Avvicinami a lui così potrò farlo!",
+    "pl": "Przesuń mnie obok niego to go zaatakuje!",
+    "ru": "Подвинь меня на него, и я с ним разберусь!",
+    "tr": "Beni onun yanına götür!"
+  },
+  "TUTORIAL_03_00": {
+    "es": "Destreza (azul) es el punto fuerte de Enid, que funciona mejor contra personajes de Fuerza Bruta (naranja) como Jetrho y yo.\n",
+    "de": "Beweglichkeit (blau) ist Enids Stärke und sie kann gut Charaktere mit Roher Gewalt (orange) wie Jethro oder mich angreifen.",
+    "en": "Dexterity (blue) is Enid's strong point, and she works better attacking Brute Force (orange) characters, like Jethro or myself.\n",
+    "fr": "La dextérité (en bleu) est le point fort d'Enid, elle peut mieux attaquer les personnages de Force Brute (en orange) juste comme Jethro ou moi-même.",
+    "it": "La destrezza (azzurro) è il punto di forza di Enid, che lavora al meglio attaccando personaggi dalla Forza Bruta (arancione), come Jethro o me.",
+    "pl": "Zręczność (niebieski) jest mocną stroną Enid, lepiej sprawuje się atakując postacie Brutalnie Silne (pomarańczowy), jak na przykład ja lub Jethro.",
+    "ru": "HУ Энид хорошо развита ловкость (голубая полоса), и она любить атаковать Сильных (оранжевый) противников, таких как Джетро или я.",
+    "tr": "Enid'in güçlü yanı, Çeviklik'tir (mavi). Bu yüzden asıl gücü Kaba Kuvvet (turuncu) olan karakterlere karşı daha iyidir, Jethro ve ben gibi."
+  },
+  "TUTORIAL_03_01": {
+    "es": "Cuando ataques enemigos vulnerables a tu color recibirán daño bonus adicional ¡No lo olvides!\n",
+    "de": "Wenn Du Feinde angreifst, die gegen Deine Farbe anfällig sind, machst Du 1 Punkt Bonusschaden. Das ist super!",
+    "en": "When you attack enemies vulnerable to your colour, you'll deal 1 point of bonus damage. That's great!\n",
+    "fr": "Quand tu attaques des ennemis vulnérables pour ta couleur, tu obtiens 1 point bonus d'endommagement. C'est super ! ",
+    "it": "Quando attacchi nemici vulnerabili al tuo colore, essi riceveranno un punto di danno in più. Approfittane!",
+    "pl": "Jeżeli atakujesz przeciwników podatnych na twój kolor, to dostajesz jeden dodatkowy punkt obrażeń. To super sprawa!",
+    "ru": "При атаке противников, чувствительных к твоему цвету, ты получаешь дополнительное 1 очко к повреждению! Это же супер!",
+    "tr": "Senin gücüne karşı zayıf olan düşmanlara saldırdığında fazladan 1 hasar puanı daha verirsin. Harika değil mi?"
+  },
+  "TUTORIAL_03_02": {
+    "es": "Ahora, mueve a Enid a mi lado.",
+    "de": "Bewege jetzt Enid neben mich.",
+    "en": "Now, move Enid next to me.",
+    "fr": "Maintenant approche Enid de moi.",
+    "it": "Ora, fai avvicinare Enid a me.",
+    "pl": "Teraz przenieś Enid obok mnie",
+    "ru": "Так, перемести-ка Энид ко мне.",
+    "tr": "Şimdi de Enid'i benim yanıma ilerlet."
+  },
+  "TUTORIAL_04_00": {
+    "es": "¡Ouch! Le dimos duro, pero también recibimos algo de daño.",
+    "de": "Au! Wir haben ihn schwer getroffen. Aber wir wurden auch verletzt.",
+    "en": "Ouch! We hit him hard. But we also took some damage.",
+    "fr": "Ouille ! Nous l'avons bien frappé ! Mais nous sommes aussi blessés.",
+    "it": "Ouch! Lo abbiamo colpito forte. Ma abbiamo anche riportato dei danni.",
+    "pl": "Ała! Mocno go zraniliśmy, ale sami też przyjęliśmy trochę obrażeń.",
+    "ru": "Ничего себе! Мы сильно его стукнули. Но и сами немного пострадали.",
+    "tr": "Ah! Güzel vuruştu. Fakat aynı zamanda biraz hasar da biz aldık."
+  },
+  "TUTORIAL_04_01": {
+    "es": "Ten cuidado, cada vez que ataques a un enemigo, ellos también te golpearán.",
+    "de": "Achtung. Immer wenn Du einen Feind triffst, bekommst Du auch den halben Schaden.",
+    "en": "Be careful. Each time you hit an enemy, you'll receive half his damage.",
+    "fr": "Attention. Chaque fois que tu frappes ton ennemi, tu reçois la moitié de son endommagement. ",
+    "it": "Attento. Ogni volta che colpsci un nemico, riporti metà dei danni che riporta lui.",
+    "pl": "Uważaj, za każdym razem, gdy atakujesz przeciwnika dostajesz połowę zadawanych obrażeń.",
+    "ru": "Помни, при каждом ударе противника ты получаешь половину его повреждений.",
+    "tr": "Dikkatli ol. Düşmana her saldırdığında hasarın yarısını sen alırsın."
+  },
+  "TUTORIAL_04_02": {
+    "es": "He realizado todas mis accione y ese Jethro sigue sobre ruedas",
+    "de": "Ich habe keine Aktionen mehr, aber Jethro ist noch auf seinen Rädern.",
+    "en": "I'm out of actions, but Jethro is still on his wheels.",
+    "fr": "Je n'ai plus d'actions, mais Jethro tient encore la route.",
+    "it": "Non ho più mosse, ma Jethro è ancora attivo sulle sue ruote.",
+    "pl": "Nie mam już ruchów, ale Jethro wciąż jest na swoich kółkach.",
+    "ru": "Я всё, но Джетро ещё на колёсах.",
+    "tr": "Bütün haklarımı kullandım. Sıra Jethro'da!"
+  },
+  "TUTORIAL_05_00": {
+    "es": "¡Genial! Enid vino a salvar el día. Seleccionala para ver sus movimientos.",
+    "de": "Super! Enid hat uns alle gerettet! Wähle sie aus und schau Dir ihre Werte an.",
+    "en": "Great! Enid came to save the day. Select her and take a look at her stats.",
+    "fr": "Super ! Enid est venue pour nous sauver. Sélectionne-la et jette un coup d'œil sur ses statistiques.",
+    "it": "Grande! Enid ci ha salvati. Selezionala e dai un'occhiata alle sue statistiche.",
+    "pl": "Świetnie! Enid przyszła nas uratować. Wybierz ją i sprawdź jej statystyki.",
+    "ru": "Отлично! Энид пришла нам на помощь. Выдели её и посмотри на её статистику.",
+    "tr": "Mükemmel! Enid günü kurtarmaya geldi. Enid'i seç ve özelliklerini incele."
+  },
+  "TUTORIAL_06_00": {
+    "es": "¡Estuvo cerca! Por suerte la habilidad especial de Enid está lista. Usala para realizar un ataque adicional. ",
+    "de": "Das war knapp! Zum Glück war die Spezialfähigkeit von Enid bereit. Setze sie ein und sie erhält einen Extra-Angriff.",
+    "en": "That was close! Fortunately Enid's special ability is ready to use. Do it and she'll get an additional attack.",
+    "fr": "Presque ! Heureusement Enid a une capacité spéciale prête à utiliser. Utilise-la et elle obtiendra une attaque supplémentaire.  ",
+    "it": "Adesso sei vicino! Fortunatamente le abilità di Enid sono pronte all'uso. Usale e lei guadagnerà un attacco extra.",
+    "pl": "Było blisko! Na szczęście specjalna umiejętność Enid jest gotowa do użycia. Użyj jej, a zyskasz dodatkowy atak.",
+    "ru": "Пронесло! К счастью, Энид готова нанести свой коронный удар. Сделай это, и она получит дополнительные очки к атаке.",
+    "tr": "Kıl payı! Neyse ki Enid'in özel yeteneği kullanıma hazır. Özel yeteneği kullanarak bir saldırı hakkı daha elde et."
+  },
+  "TUTORIAL_07_00": {
+    "es": "¡Bien hecho! Salvamos a Lakewood Plaza.",
+    "de": "Gut gemacht! Lakewood Plaza ist wieder sicher.",
+    "en": "Well done! Lakewood Plaza is safe again.",
+    "fr": "Bien fait ! Lakewood Plaza est de nouveau en sécurité.",
+    "it": "Ben fatto! Lakewood Plaza è di nuovo al sicuro.",
+    "pl": "Doskonale! Lakewood Plaza jest znów bezpiecznym miejscem.",
+    "ru": "Хорошая работа! Lakewood Plaza снова в безопасности.",
+    "tr": "Aferin! Lakewood Plaza artık güvenli bir yer."
+  },
+  "TUTORIAL_07_01": {
+    "es": "Ten presente los objetos que aparezcan en combate, pueden darte la ventaja en situaciones difíciles",
+    "de": "Manchmal sind Kämpfe schwerer als erwartet, halte deswegen immer Ausschau nach Extras, die Dir Vorteile geben.",
+    "en": "Sometimes battles can get harder than expected, so always keep an eye for pickups to get the advantage that you need.",
+    "fr": "Parfois les batailles deviennent plus difficiles que prévu, fais attention aux objets trouvés pour obtenir des avantages dont tu as besoin.",
+    "it": "A volte le battaglie possono farsi più dure del previsto, quindi fai sempre attenzione a quegli oggetti che possono darti il vantaggio di cui hai bisogno.",
+    "pl": "Czasami bitwy mogą okazać się trudniejsze niż wydawało się na początku, a więc rozglądaj się za pojawiającymi się bonusami, które zapewnią ci przewagę, której potrzebujesz.",
+    "ru": "Иногда бои могут быть труднее, чем могло показаться на первый взгляд, поэтому собирай находки.",
+    "tr": "Bazı savaşlar beklediğinden daha zor gidebilir. Bu yüzden yere düşen ve işine yarayabilecek şeyleri kaçırma."
+  },
+  "TUTORIAL_07_02": {
+    "es": "¡Estás listo para la batalla real!",
+    "de": "Jetzt bist Du bereit für einen richtigen Kampf!",
+    "en": "Now you are ready to take a real fight!",
+    "fr": "Maintenant tu es prêt pour une vraie bataille !",
+    "it": "Ora sei pronto per un vero combattimento!",
+    "pl": "Teraz jesteś gotowy na prawdziwą batalię!",
+    "ru": "Теперь настал черёд настоящей драки!",
+    "tr": "Artık gerçek bir savaşa hazırsın!"
+  },
+  "TUTORIAL_08_00": {
+    "es": "Su rango de ataque es 2, por lo que puede atacar a Jethro de lejos sin lastimarse.",
+    "de": "Ihre Angriffsreichweite ist 2, so dass sie Jethro aus der Ferne angreifen kann, ohne selbst verletzt zu werden.",
+    "en": "Her attack range is 2, so she can attack Jethro from afar without getting hurt.",
+    "fr": "Son niveau d'attaque est de 2, elle peut alors attaquer Jethro de loin sans se faire blesser.",
+    "it": "La sua distanza di attacco è di 2 caselle, quindi può attaccare Jethro da più lontano e non riportare danni.",
+    "pl": "Jej zasięg ataku to 2, a więc możesz zaatakować Jethro z daleka nie otrzymując obrażeń.",
+    "ru": "Её дальность атаки - 2, поэтому она может атаковать Джетро с дальнего расстояния, без получения повреждений.",
+    "tr": "Enid'in saldırı mesafesi 2, bu sayede Jethro'ya uzaktan, hasar almadan saldırabilir."
+  },
+  "TUTORIAL_08_01": {
+    "es": "¡Hora de la acción! Terminemos con estos molestos robots.",
+    "de": "Zeit für Action! Lass uns diesen nervigen Roboter erledigen.",
+    "en": "Time for action! Let's finish with this annoying robot.",
+    "fr": "L'heure est venue d'agir ! Finissons-en avec cet ennuyeux robot !",
+    "it": "È ora di agire! Facciamola finita con questo robot fastidioso.",
+    "pl": "Czas na działanie! Załatwmy tego irytującego robota.",
+    "ru": "Давай! Покончи с этим надоедливым роботом.",
+    "tr": "Zamanı geldi! Şu sinir bozucu robotun işini bitirelim!"
+  },
+  "SHOW_INFO": {
+    "es": "Acerca de OK K.O.!",
+    "de": "Fast OK K.O.!",
+    "en": "About OK K.O.!",
+    "fr": "A propos d'OK K.O. !",
+    "it": "A proposito di OK K.O!",
+    "pl": "O OK K.O.!",
+    "ru": "О OK K.O.!",
+    "tr": "Fena Olmayan K.O.!"
+  },
+  "CAROL_INFO": {
+    "es": "Es la madre ultra poderosa de K.O., quien lo ha entrenado desde su nacimiento. Carol majena un Dojo de Firness. Soliá ser un gran heroe junto al Sr. Gar, ",
+    "de": "K.O.s superstarke Mutter, die ihn seit seiner Geburt trainiert hat. Carol führt das Fitness Dojo. Sie war zusammen mit Mr. Gar eine großartige Heldin, aber war dann auch glücklich, ein ruhiges Leben in der Plaza zu führen.",
+    "en": "K.O.’s ultra strong mom, who trained him from birth. Carol runs the fitness dojo. She used to be a great hero alongside Mr. Gar, but has been happy to settle down into a quieter life at the plaza. ",
+    "fr": "Une mère ultra-forte qui l'entraînait depuis sa naissance. Carol dirige le Fitness Dojo. Elle était jadis une grande héroïne avec Mr. Gar mais elle était heureuse de s'installer pour une vie tranquille à la Plaza. ",
+    "it": "La madre super forte di K.O., che lo ha addestrato sin dalla nascita. Carol è un'esperta di firness Dojo. È stata una grande eroina assieme a Mister Gar, ma ha scelto felicemente di condurre una vita più tranquilla al plaza.",
+    "pl": "Super silna mama K.O., która trenowała go od urodzenia. Karol prowadzi dojo fitnes. Była kiedyś doskonałą superbohaterką u boku Mr. Gal, ale postanowali ustatkować się wiodąc spokojne życie w plazie.",
+    "ru": "сильнейшая мама KO, которая тренировала его с рождения. Она владеет залом для занятия единоборствами. Когда-то она была выдающимся героем, наряду с Гаром, но с радостью решила осесть и вести более спокойную жизнь в плазе.",
+    "tr": "K.O.'nun ultra güçlü annesi, onu doğumdan beri eğitmiş. Fitness Dojo'yu işletiyor. Bay Gar'la beraber büyük kahramanlardan bir tanesiydi fakat sonrasında daha sakin bir hayatı tercih etti."
+  },
+  "KO_INFO": {
+    "es": "K.O. puede llegar a ser el héroe más poderoso algún día. Por el momento es un gran fan.",
+    "de": "K.O. wird vielleicht irgendwann der größte Held, aber jetzt ist er noch der größte Fanboy.",
+    "en": "K.O. may be the greatest hero one day, but for now he’s the greatest fanboy.",
+    "fr": "Un jour K.O. deviendra peut-être le plus grand héros mais pour l'instant il est le plus grand fanboy. ",
+    "it": "K.O. potrà diventare l'eroe più grande di tutti, un giorno, ma per ora è il miglior fan.",
+    "pl": "K.O. może kiedyś zostać najlepszym z bohaterów, ale jak na razie jest największym fanem.",
+    "ru": "Однажды КО может стать величайшим героем, а пока он - величайший фанат.",
+    "tr": "K.O. günün birinde büyük bir kahraman olabilir ama şimdilik sadece bir hayran."
+  },
+  "ENID_INFO": {
+    "es": "Casi tan poderosa como sus habilidades en las artes marciales es su angustia adolescente. Tiende a reaccionar a los clientes y robots malvados con igual cantidad de indiferencia.",
+    "de": "Fast so mächtig wie ihre Martial Arts-Künste ist ihr Emo. Sie reagiert auf Kunden und auf böse Roboter gleichermaßen mit Augenrollen.",
+    "en": "Almost as powerful as her martial arts skills is her teen angst. She tends to react to customers and evil robots with equal amounts of eye ­rolling.",
+    "fr": "Ses capacités dans les arts martiaux n'ont d'égal que son angoisse d'adolescente. Elle a une tendance à lever les yeux au ciel devant les clients comme les robots maléfiques.",
+    "it": "La sua rabbia adolescenziale è potente quasi quanto la sua abilità con le arti marziali. Tende a reagire ai clienti e ai robot malvagi con la stessa quantità di indifferenza.",
+    "pl": "Jej znajomość sztuk walki jest równie niebezpieczna, co jej nastoletnia złość. Na roboty i klientów reaguje z podobną irytacją.",
+    "ru": "её чрезмерная юношеская обеспокоенность почти так же сильна, как и её бойцовские качества. Она часто закатывает глаза перед клиентами и злыми роботами.",
+    "tr": "Dövüş sanatları kadar güçlü olan bir diğer yanı da ergenlik endişeleri. Müşterilere ve şeytani robotlara eşit derecede göz devirme ile karşılık verir."
+  },
+  "RAD_INFO": {
+    "es": "Rad tiene una serie interminable de poderes extraterrestres, puede disparar lasers, manipular objetos y hasta puede levitar.",
+    "de": "Er hat scheinbar unendliche Alien-Kräfte, insbesondere einen Fingerstrahl, mit dem er Objekte bewegen kann. Er kann auch schweben und kurz so GROSS aussehen, wie er sich immer gibt.",
+    "en": "He has a seemingly endless array of alien powers, most notably a finger beam that can be used to manipulate objects. He can also levitate, making himself briefly look as BIG as he acts.",
+    "fr": "Il semble avoir nombre de super pouvoirs extraterrestres, parmi lesquels - le mouvement du doigt pour manipuler des objets. Il peut aussi léviter et se faire GRAND pour un bref moment pendant qu'il fait son action.",
+    "it": "Ha una serie apparentemente infinita di poteri alieni, primo tra tutti un raggio che gli esce dalle dita e che usa per manipolare gli oggetti. Può anche levitare nell'aria, cosa che lo fa apparire brevemente GRANDE quando agisce.",
+    "pl": "Ma nieskończoną ilość kosmicznych mocy, najistotniejszą z nich jest promień z palca, który potrafi manipulować objektami. Potrafi też lewitować, dzięki czemu wygląda na tak dużego, na jakiego się kreuje.",
+    "ru": "обладает, кажется, бесконечным набором внеземных сил, наиболее значимой из которых является пальцевой луч, с помощью которого можно перемещать объекты. Также он умеет парить в воздухе, что делает его таким же БОЛЬШИМ, как и его действия",
+    "tr": "Neredeyse sınırsız sayıda uzaylı gücüne sahip olan Rad'in en dikkat çeken gücü, nesneleri yöneten parmak ışını. Kendisi aynı zamanda uçarak kendini olduğundan daha büyük gösterebilir."
+  },
+  "GAR_INFO": {
+    "es": "El Sr. Gar siempre sabe qué hacer y es increíble para soluciónar problemas. Desafortunadamente para K.O., Rad y Enid, el Sr. Gar está lejos de la tienda atendiendo negocios de héroe.",
+    "de": "Mr. Gar weiß immer, was zu tun ist und ist fantastisch beim Lösen von Problemen. Leider ist Mr. Gar meistens nicht auf der Plaza, sondern in Heldendingen unterwegs, so dass K.O., Rad & Enid alles selbst lösen müssen.",
+    "en": "Mr. Gar always knows what to do, and is amazing at solving problems. Unfortunately for K.O., Rad & Enid, Mr. Gar is usually away from the plaza conducting hero business, leaving them to sort things out themselves.",
+    "fr": "Mr. Gar sait toujours quoi faire et il est incroyable quand il faut résoudre un problème. Malheureusement pour K.O., Rad et Enid, MR. Gar est rarement à la plaza s'occupant de ses affaires de héros. Ils doivent alors tout régler eux-mêmes.",
+    "it": "Mister Gar sa sempre cosa fare ed è incredibilmente bravo a risolvere i problemi. Sfortunatamente per K.O., Rad e Enid, Mister Gar di solito è lontano dalla plaza, intento a gestire i suoi affari, lasciandoli soli a risolvere i loro problemi.",
+    "pl": "Mr. Gar zawsze wie co należy zrobić, potrafi rozwiązać każdy problem. Niefortunnie dla K.O.,  Rad i Enid oraz Mr. Gar zwykle podróżuje w ramach bohaterskich działań poza plazą zmuszając ich do samodzielnych działań.",
+    "ru": "Гар тоже знает что как делается, и умеет удивительным образом решать проблемы. К сожалению для КО, Рэда и Энид, как правило Гар редко бывает в плазе, так как у него много геройских дел, и ребята должны сами справляться со своими делами.",
+    "tr": "Bay Gar, ne yapması gerektiğini daima bilir ve sorunları çözmede ustadır. Ne yazık ki K.O., Rad ve Enid'e göre Bay Gar, genellikle plazadan uzakta, kahraman işleriyle uğraşırken işleri başkalarına bırakıyor."
+  },
+  "DARRELL_INFO": {
+    "es": "Son conocidos por su astucia e ingeniosos trucos. Siempre acompañan lealmente a Lord Box-Man. Puede disparar misiles si se siente amenazado.",
+    "de": "Darrells sind für ihre listigen Tricksereien und ihren Erfindungsreichtum bekannt. Sie sind treue Handlanger ihres Lords BoxMan. Schießen bei Gefahr Geschosse.",
+    "en": "Darrells are known for their cunning trickery and resourcefulness. They suck up to Lord Box­Man as loyal stooges. Shoots missiles when threatened.",
+    "fr": "Darrels sont connus pour leur malice et leur inventivité. Ils accompagnent fidèlement le Lord BoxMan. Ils lancent les missiles quand ils se sentent en danger. ",
+    "it": "I Darrell sono noti per i loro trucchi d'astuzia e la loro inventiva. Accompagnano sempre lealmente Lord BoxMan. Sparano missili quando sono minacciati.",
+    "pl": "Darrelle są znane ze  swojego cwaniactwa i zaradnności. Są wiernymi marionetkami Lorda BoxMana. Strzelają pociski, gdy czują się zagrożone",
+    "ru": "Дэррелы знамениты своими уловками и находчивостью. Будучи верными слугами Лорда BoxMan, они во всём перед ним пресмыкаются. Запускают ракеты при первой же угрозе.",
+    "tr": "Darrelllar hilekârlıklarıyla ve beceriklilikleriyle tanınırlar. Lord BoxMan'in sadık yardakçılarıdır. Tehlike anında füze saldırısı yaparlar."
+  },
+  "BOXMAN_INFO": {
+    "es": "Un arrogante villano ciborg que dirige una malvada base al otro lado de la calle. Construye robots malvados y los vende a otros villanos. Odia las bromas.",
+    "de": "Ein hochmütiger Cyborg-Fiesling, der sein böses Hauptquartier auf der anderen Straßenseite hat. Er baut böse Roboter und verkauft sie an andere Fieslinge. Für ihn gibt es nur das Geschäft, er hasst alle Späße und Freuden.",
+    "en": "A haughty cyborg villain who runs an evil base across the street. He builds evil robots and sells them to other villains. He’s all business and hates all types of jokes and merriment.",
+    "fr": "Un méchant cyborg qui dirige une base maléfique à l'autre côté de la rue. Il construit des robots malveillants et les vend à d'autres méchants. Il se concentre sur le business à cent pour cent et il déteste tous types de blagues et de joies.",
+    "it": "Un cyborg arrogante e malvagio che gestisce una base criminale dall'altra parte della strada. Costruisce robot cattivi e li vende ad altri criminali. Pensa solo agli affari e detesta ogni sorta di scherzo o divertimento.",
+    "pl": "Nadufany łotr cyborg, który prowadzi złą bazę przy ulicy. Buduje złe roboty i sprzedje je innym złoczyńcom. Liczy się dla niego tylko biznes i nienawidzi zabawy i żartów. ",
+    "ru": "надменный киборг-злодей, владеющий базой злых роботов на другой стороне улицы. Он создаёт злых роботов и продаёт их другим злодеям. Он очень серьёзный и ненавидит шутки и веселье.",
+    "tr": "Kibirli bir cyborg olan BoxMan, sokağın karşı tarafındaki kötülük üssünü yönetir. Şeytani robotlar yapar ve bunları diğer kötülere satar. Tamamen işe dönüktür. Şakalardan ve eğlenceden nefret eder."
+  },
+  "ERNESTO_INFO": {
+    "es": "Fueron creados por Lord Box-Man como sus fieles ejecutivos. Extremadamente fuertes y duros. Los Ernerstos pueden moverse en forma de balón.",
+    "de": "Lord BoxMan hat sie als weitere Führungskräfte kreiert. Sehr stark und sehr hart, Ernesto kann in Ballform herumrollen.",
+    "en": "Lord­Box Man created them to be fellow executives. Super strong and super tough, Ernestos can roll around in a ball form.",
+    "fr": "Lord BoxMan les a créés pour en faire ses collègues. Super fort et super résistant, Ernestos peut rouler en forme de boule.",
+    "it": "Creati da Lord Box-Man come suoi scagnozzi esecutivi. Super forti e super robusti, gli Ernosto possono rotolare in giro sotto forma di palle.",
+    "pl": "Lord Box-Man stworzył ich, aby zostali współpracującymi z nim kierownikami. Są super silne i odporne. Ernesto mogą się przetaczać w formie piłki.",
+    "ru": "Лорд BoxMan создал их себе в помощь - управленцами. Супер сильные и супер крепкие, Эрнесты могут принимать форму шара и кататься по территории.",
+    "tr": "Lord BoxMan'in tasarladığı yönetici robotlar. Çok güçlüdür ve çok dayanıklıdır. Topa dönüşerek yuvarlanabilirler."
+  },
+  "SHANNON_INFO": {
+    "es": " Lord Box-man las trata como a hijas mimadas. Los Sahnnon tienen un MONTÓN de armas y pueden transformarse en distintas cosas.",
+    "de": "Shannon hat eine TONNE Waffen und kann sich in Dinge verwandeln. Lord BoxMan behandelt sie wie verwöhnte Töchter.",
+    "en": "Shannons have a TON of weapons and can transform into things. Lord Box­Man treats them like spoiled daughters.",
+    "fr": "Les Shannons ont une TONNE d'armes et elles peuvent se transformer en objets. Lord BoxMan les traite comme ses filles gâtées.",
+    "it": "Le Shannon hanno un vero e proprio ARSENALE di armi e possono trasformarsi in altre cose. Lord Box-Man le tratta come figlie viziate.",
+    "pl": "Shannony mają mnóstwo broni i mogą się zamieniać w różne rzeczy. Lord BoxMan traktuje je, jak swoje rozpuszczone córki.",
+    "ru": "у Шэннонов ВАГОН оружия, и они могут принимать форму предметов. Лорд BoxMan обходится с ними как с капризными дочерями.",
+    "tr": "Shannonlar'ın pek çok silahı vardır ve farklı şeylere dönüşebilirler. Lord BoxMan, Shannonlar'ı şımarık evlatlar gibi yetiştirir."
+  },
+  "RAYMOND_INFO": {
+    "es": "SUPER RAPIDOS y mortales. Los Raymond tienen una relación muy especial con Lord Box-Man.",
+    "de": "SUPERSCHNELL und supertödlich. Raymonds haben ein Athleten/Trainer-Verhältnis mit Lord BoxMan.",
+    "en": "SUPER FAST and super deadly. Raymonds have a sports player/coach relationship with Lord Box­Man. ",
+    "fr": "SUPER RAPIDE et super mortel. Les Raymonds ont une relation avec Lord BoxMan comme un sportif avec son entraîneur.",
+    "it": "SUPER RAPIDI e super mortali. Per i Raymond Lord Box-Man è come l'allenatore per i giocatori.",
+    "pl": "SUPER SZYBKI i super śmiercionośny. Raymondy są dla Lord BoxMana jego zawodnikami, a on jest dla nich trenerem.",
+    "ru": "СУПЕР БЫСТРЫЙ и супер смертоносный. Рэймонды относятся к Лорду BoxMan как игрок к тренеру.",
+    "tr": "Aşırı hızlı, aşırı ölümcül. Raymondlar ile Lord BoxMan arasında oyuncu-koç ilişkisi vardır."
+  },
+  "JETHRO_INFO": {
+    "es": "TONTOS. Realmente tontos. Los Jethros avanzan hasta toparse con algo. Box-Man los envía en grandes ordas a sus enemigos.",
+    "de": "DUMM. Richtig dumm. Jethros gehen geradeaus, bis sie irgendwo gegenstoßen. BoxMan schickt sie in Gruppen gegen Feinde, als Kanonenfutter.",
+    "en": "DUMB. Really dumb. Jethros march forward until they hit something, Box­Man sends waves of them at enemies. Cannon fodder.",
+    "fr": "IDIOT. Un vrai idiot. Jethros s'avance jusqu'à ce qu'ils cogne quelque chose. BoxMan les envoient en vagues vers ses ennemies. Chair à canon. ",
+    "it": "STUPIDI. Molto stupidi. I Jethro marciano avanti finchè non urtano qualcosa, BoxMan li sguinzaglia a ondate contro i suoi nemici. Sono carne da macello.",
+    "pl": "GŁUPI. Naprawdę głupi. Jethrosy poruszają się do przodu do momentu, gdy w coś uderzą. BoxMan wysyła ich całe fale na swoich przeciwników. Mięso armatnie.",
+    "ru": "ТУПОЙ. Чрезвычайно тупой. Джетры идут вперёд пока не столкнутся с чем-нибудь. BoxMan отправляет их пачками на врагов. Пушечное мясо.",
+    "tr": "Aptal. Gerçekten aptal. Jethrolar bir şeye çarpana kadar ilerlerler. BoxMan, bunlardan dalgalar hâlinde gönderir. Değersizlerdir."
+  },
+  "HELP_SCREEN_00": {
+    "es": "Selecciona tu equipo - mira sus habilidades\ny poderes especiales en sus cartas",
+    "de": "Wähle Dein Team - überprüfe ihre Werte\n und Spezialfähigkeiten auf ihren Karten",
+    "en": "Select your team - check their stats\nand special abilities on their cards",
+    "fr": "Sélectionne ton équipe - vérifie leurs statistiques\net leurs capacités sur leur cartes.",
+    "it": "Scegli la tua squadra - controllane le capacità\ne le abilità speciali sulle sue carte",
+    "pl": "Wybierz swoją drużynę - sprawdź na ich kartach statystyki\ni specjalne umiejętności.",
+    "ru": "Выбери свою группу - посмотри их статистику\nи коронные приёмы в их карточках",
+    "tr": "Takımını seç - Kartın üzerindeki\nözellikleri ve kabiliyetleri incele."
+  },
+  "HELP_SCREEN_01": {
+    "es": "Cliquea un personaje\ny selecciona hacia donde moverlo",
+    "de": "Klicke auf einen Teamcharakter und wähle aus,\nwohin er sich bewegen soll",
+    "en": "Click on a team character\nand select where to move",
+    "fr": "Clique sur le personnage de l'équipe \net choisi où faire l'action.",
+    "it": "Clicca sul personaggio di una squadra e\nseleziona la casella in cui spostarlo.",
+    "pl": "Wybierz członka drużyny i gdzie\nsię chcesz nim poruszyć.",
+    "ru": "Нажми на члене группы и\nукажи направление движения",
+    "tr": "Takım üyelerinden birine tıkla ve nereye\nilerletmek istediğini seç."
+  },
+  "HELP_SCREEN_02": {
+    "es": "Los objetos te ayudarán a vencer en tus combates",
+    "de": "Extras helfen Dir, den Kampf zu gewinnen",
+    "en": "Pickups will help you to win the battle",
+    "fr": "Les objets trouvés t'aideront à gagner la bataille",
+    "it": "Gli oggetti trovati ti aiuteranno a vincere in battaglia",
+    "pl": "Bonusy pomogą ci w osiągnięciu zwycięstwa",
+    "ru": "Находки помогут выиграть бой",
+    "tr": "Eşyalar, savaşı kazanmana yardımcı olurlar."
+  },
+  "HELP_SCREEN_03": {
+    "es": "Ataca enemigos vulnerables a tu color",
+    "de": "Greife Feinde an, die für Deine Farben anfällig sind",
+    "en": "Attack enemies vulnerable to your colour",
+    "fr": "Attaque les ennemies vulnérables à ta couleur.",
+    "it": "Attacca i nemici vulnerabili al tuo colore",
+    "pl": "Atakuj wrogów, którzy są bardziej narażeni na twój kolor.",
+    "ru": "Атакуй врагов, чувствительных к соответствующему цвету",
+    "tr": "Senin rengine karşı zayıflığı olan düşmanlara saldır."
+  },
+  "HELP_SCREEN_04": {
+    "es": "Estatus de Carta",
+    "de": "Kartenwerte",
+    "en": "Card stats",
+    "fr": "Status de la carte",
+    "it": "Stato della carta",
+    "pl": "Statystyki karty",
+    "ru": "Статистические карточки",
+    "tr": "Kart Özellikleri"
+  },
+  "HELP_SCREEN_05": {
+    "es": "Habilidades Especiales",
+    "de": "Spezialfähigkeit",
+    "en": "Special abilities",
+    "fr": "Capacité spéciale",
+    "it": "Abilità speciali",
+    "pl": "Specjalne umiejętności",
+    "ru": "Коронный удар",
+    "tr": "Özel Yetenek"
+  },
+  "CONFIRMATION": {
+    "es": "¿Colega, estás seguro?",
+    "de": "Bist Du sicher, Kumpel?",
+    "en": "Are you sure, buddy?",
+    "fr": "Es-tu sûr, mon ami ?",
+    "it": "Sei sicuro, amico?",
+    "pl": "Czy jesteś pewien, kolego?",
+    "ru": "Точно, старина?",
+    "tr": "Emin misin, dostum?"
+  }
+}

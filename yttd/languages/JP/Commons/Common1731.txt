@@ -1,0 +1,668 @@
+**********Common1731********** (３前進展⑭２人目の犠牲)
+{アルジー} [アルジー / cara17-9]
+#Message#
+「おお…！　果たして正解は出るのか…!?」
+##
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-7]
+{SE: Accent41-1}
+#Message#
+「…！」
+##
+
+[ハヤサカ / cara94-14]
+#Message#
+\.「…そんな…!!」
+##
+
+[ハヤサカ / cara94-15]
+#Message#
+\.「……!!」
+##
+
+#Message#
+\.「さ　サラさん…」
+##
+
+[ハヤサカ / cara94-13]
+#Message#
+\.「勝ってくれよ…!!　ギンくんを守…
+##
+
+<Else>
+
+<Condition End>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-10]
+{SE: Accent41-1}
+#Message#
+「…あ……」
+##
+
+[マイ / cara92-15]
+#Message#
+\.「ああ…あああぁぁ……」
+##
+
+#Message#
+\.「さ　サラ…ちゃん…　Qタロウ…さん……」
+##
+
+[マイ / cara92-16]
+#Message#
+\.「\N[4]を…　絶対に倒し…
+##
+
+<Else>
+
+<Condition End>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{サラ}
+{SE: sceneswitch2}
+#Message#
+「…あ……あぁ……」
+##
+
+{アルジー} [アルジー / cara17-8]
+{SE: Accent28-1}
+#Message#
+「残念！　ヒットしたのは\V[988]！」
+##
+
+<Else>
+
+{サラ}
+#Message#
+\C[4]（………!!）
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[4]（どう…なった……？）
+##
+
+{\N[4]} [ミドリ / cara19-2]
+{SE: horror_piano chord3}
+#Message#
+「だから…無理だって」
+##
+
+{アルジー} [アルジー / cara17-8]
+{SE: Accent28-1}
+#Message#
+\.「残念！　ヒットしたのは\V[988]！」
+##
+
+<Condition End>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{サラ}
+{SE: sceneswitch2}
+#Message#
+「…あ……あぁ……」
+##
+
+{アルジー}
+{SE: Accent28-1}
+#Message#
+「残念！　ヒットしたのは\V[988]！」
+##
+
+<Else>
+
+{サラ}
+#Message#
+\C[4]（………!!）
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[4]（どう…なった……？）
+##
+
+{\N[4]} [ミドリ / cara19-2]
+{SE: horror_piano chord3}
+#Message#
+「だから…無理だって」
+##
+
+{アルジー} [アルジー / cara17-8]
+{SE: Accent28-1}
+#Message#
+\.「残念！　ヒットしたのは\V[988]！」
+##
+
+<Condition End>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-10]
+#Message#
+\.「そんなあぁ!!　ハヤサカぁぁ…!!」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-15]
+#Message#
+\.「あ…あ…　私じゃなくて…　ハヤサカが…」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-22]
+#Message#
+\.「どうなってやがんだ…!!　ああ…!!　ハヤサカ…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-47]
+#Message#
+\.「いったい　どうなってやがんだ…!!」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-10]
+#Message#
+\.「ああ…!!　ハヤサカの体が…!!」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-15]
+#Message#
+\.「そんな…　今度は…　ハヤサカが…」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-22]
+#Message#
+\.「ハヤサカ…!!　なんで死んでからも　こんな目に…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-47]
+#Message#
+\.「いったい　どうなってやがんだ…!!」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-10]
+#Message#
+\.「そんなあぁ!!　マイちゃぁぁん…!!」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-22]
+#Message#
+\.「クソッ…!!　なんでマイなんだ…!!
+　だったらオレを…!!」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-13]
+#Message#
+\.「うぅ……!!　マイさん…!!　こんな事が…!!」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-22]
+#Message#
+\.「どうなってやがんだ…!!　ああ…!!　マイ…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-47]
+#Message#
+\.「いったい　どうなってやがんだ…!!」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-10]
+#Message#
+\.「ああ…!!　マイちゃんの体が…!!」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-22]
+#Message#
+\.「クソッ…!!　もう死んでんだ…!!
+　なんでこんな事する必要があるんだよ…!!」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-13]
+#Message#
+\.「うぅ……!!　バラバラだ…!!」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-22]
+#Message#
+\.「マイ…!!　なんで死んでからも　こんな目に…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-47]
+#Message#
+\.「いったい　どうなってやがんだ…!!」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+{サラ}
+#Message#
+\.「ま　また…」
+##
+
+#Message#
+\.「また外してしまったのか…!?　私は…!!」
+##
+
+{\N[4]} [ミドリ / cara19-6]
+#Message#
+\.「あっはっは!!　ほらね！　キミは仲間を貫いた!!」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-27]
+#Message#
+\.「も　もう嫌です…!!」
+##
+
+[カンナ / cara3-15]
+#Message#
+\.「みんな殺されちゃう…!!
+　ギンくんも…　ダミーズさんも…!!」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-31]
+#Message#
+\.「な…なんで　外すんだ…　こうも…!!」
+##
+
+[ソウ / cara5-34]
+#Message#
+\.「このままじゃ…　もう…!!」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+#Message#
+\.「み　みんな！　冷静に!!」
+##
+
+#Message#
+\.「勝負はまだ…ついていないんです…!!」
+##
+
+{\N[4]} [ミドリ / cara19-3]
+{SE: Accent41-1}
+#Message#
+\.「ついてるよ？」
+##
+
+{サラ}
+#Message#
+\.「な　なんだと…!!」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+#Message#
+\.「冷静じゃないのはキミの方だよ」
+##
+
+[ミドリ / cara19-2]
+{SE: Accent21-1}
+#Message#
+\.「ほら　整理しよっか」
+##
+
+#Message#
+\.「光るヒツギは…全部で何台ある？」
+##
+
+{サラ}
+#Message#
+\.「何を言ってるんだ…」
+##
+
+#Choice#
+３台
+５台
+７台
+９台
+##
+
+<３台>
+
+{サラ} [ミドリ / cara19-2]
+{SE: Accent40-1}
+#Message#
+\.「３台…？」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: Onmtp-Surprise03-1}
+#Message#
+\.「あちゃー　サラさんが　ほんとに壊れちゃった！」
+##
+
+[ミドリ / cara19-3]
+#Message#
+\.「難しい質問はしてないよ」
+##
+
+<５台>
+
+{サラ} [ミドリ / cara19-3]
+{SE: Accent40-1}
+#Message#
+\.「５台だ…！」
+##
+
+<７台>
+
+{サラ} [ミドリ / cara19-3]
+{SE: Accent40-1}
+#Message#
+\.「７台…？」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: Onmtp-Surprise03-1}
+#Message#
+\.「あちゃー　サラさんが　ほんとに壊れちゃった！」
+##
+
+[ミドリ / cara19-3]
+#Message#
+\.「難しい質問はしてないよ」
+##
+
+<９台>
+
+{サラ} [ミドリ / cara19-3]
+{SE: Accent40-1}
+#Message#
+\.「９台…？」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: Onmtp-Surprise03-1}
+#Message#
+\.「あちゃー　サラさんが　ほんとに壊れちゃった！」
+##
+
+[ミドリ / cara19-3]
+#Message#
+\.「ほらほら　まじめに答えよ？」
+##
+
+<Choice End>
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: Accent28-1}
+#Message#
+\.「その通り！　光るヒツギは５台！」
+##
+
+[ミドリ / cara19-5]
+{SE: Accent21-1}
+#Message#
+\.「そしてヒットしたのは
+　\C[10]\V[983]　\C[12]ヒナコ　\C[10]\V[988]\C[0]…」
+##
+
+[ミドリ / cara19-2]
+{SE: Accent40-1}
+#Message#
+\.「残る２つのヒツギの片方に…　ボクはヒントを使う」
+##
+
+{サラ}
+#Message#
+\.「そ　そんな事をしたら…!!」
+##
+
+{\N[4]} [ミドリ / cara19-6]
+{SE: shock1}
+#Message#
+\.「\C[12]青\C[0]が出ても　\C[10]赤\C[0]が出ても　１００％答えがわかるんだ」
+##
+
+[ミドリ / cara19-2]
+{SE: Accent40-1}
+#Message#
+\.「キミはさらに…　\C[10]\V[981]番のヒツギ\C[0]に
+　ヒントを使っているから…」
+##
+
+{サラ}
+#Message#
+\.「…あっ……!!」
+##
+
+{\N[4]} [ミドリ / cara19-6]
+{SE: shock1}
+#Message#
+\.「残ってるヒツギは…たったひとつなんだよ？」
+##
+
+{サラ}
+{SE: heart2}
+#Message#
+\.\C[4]（…バカ…な……）
+##
+
+{N/A}
+#Message#
+\C[3]足に力が入らない。
+##
+
+#Message#
+\.\C[3]\N[4]の説明は、正しい。
+##
+
+#Message#
+\.\C[3]私は…当てる事ばかり考えて、外した時を考えてなかった。
+##
+
+{SE: Accent21-1}
+#Message#
+\.\C[3]次で必ず、ギンは当たる。
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[3]つまり、確実に…殺される。
+##
+
+#Message#
+\.\C[3]さっきの選択が…私達の最後の選択だったんだ…
+##
+
+{サラ}
+#Message#
+\.「…私…は…」
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「…負けたの…か……？」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: Accent28-1}
+#Message#
+\.「あはは…　そうだよ…」
+##
+
+[ミドリ / cara19-3]
+{SE: shrink1}
+#Message#
+\.「ほらほら　立ちなよ　サラさん
+　キミの役目は　まだあるよ？」
+##
+
+{サラ}
+{SE: Accent21-1}
+#Message#
+\.「役…目……？」
+##
+
+{\N[4]} [ミドリ / cara19-4]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「敗戦処理…」
+##
+
+[ミドリ / cara19-6]
+{SE: sceneswitch2}
+#Message#
+\.「ボクの代わりに　ヒントを使って…
+　ギンの居場所を知らせてよ…」
+##
+
+[ミドリ / cara19-31]
+{SE: Accent41-1}
+#Message#
+\.「別れのあいさつぐらい…してもいいよ…？」
+##
+
+{サラ}
+#Message#
+\.「……………」
+##
+
+{N/A}
+{SE: heart2}
+#Message#
+\.\C[3]別れ…？
+##
+
+#Message#
+\.\C[3]これが…ギンとの最後…？
+##
+
+#Message#
+\.\C[3]そんなの……
+##
+
+{\N[4]} [ミドリ / cara19-3]
+{SE: Accent21-1}
+#Message#
+\.「そっか　申し訳なくて　顔も見れないよね…」
+##
+
+[ミドリ / cara19-4]
+{SE: Accent28-1}
+#Message#
+\.「よーし　アルジー！　もうキミがやっちゃって…」
+##
+
+{サラ}
+#Message#
+\.「ま…待って…」
+##
+
+#Message#
+\.「…やる……！　やるから……！　やめて……!!」
+##
+
+{\N[4]} [ミドリ / cara19-3]
+#Message#
+\.「じゃあ　早く早く！」
+##
+
+[ミドリ / cara19-4]
+{SE: Accent24-1}
+#Message#
+\.「\C[12]青\C[0]が出るかな？　\C[10]赤\C[0]が出るかな？
+　ワクワクするなぁ～！」
+##
+
+{サラ}
+#Message#
+\C[4]（頭が…まわらない……）
+##
+

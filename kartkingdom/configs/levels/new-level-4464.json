@@ -1,0 +1,1 @@
+{"name":"Shifting Rocks","theme":"cave","music":"rock","start":"default_start","bots":{"chaz":"ai\/kart_ai_easy_pickups","armstrong":"ai\/kart_ai_easy_pickups","pinewood":"ai\/kart_ai_medium_pickups"},"sections":["jumpback-mountain-601","two-humps-working-952","coin-arc-draft-2956","boosting-exit-621"],"end":"default_end"}

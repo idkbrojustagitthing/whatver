@@ -1,0 +1,127 @@
+**********Common1098********** (◆3章前編B汎用ｲﾍﾞﾝﾄ)
+{サラ}
+{SE: se_maoudamashii_magical14}
+#Message#
+\C[4]（このモニターって…）\.
+##
+
+{N/A}
+{SE: Accent21-1}
+#Message#
+\C[3]画面をよく思い出す…
+##
+
+{SE: Accent41-1}
+#Message#
+\C[2]ヒツギ管理システム\C[3]…と書かれている。
+##
+
+{サラ}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（これって…もしかして…）
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[4]（フロアにあるヒツギを　管理するための…
+　モニターなのか…？）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-9]
+{SE: Accent21-1}
+#Message#
+「もしかしたら　ヒツギを開ける事だって
+　できるかもしれません！」
+##
+
+<Else>
+
+{ソウ} [ソウ / cara5-2]
+{SE: Accent21-1}
+#Message#
+「もしかしたら　ヒツギを開けることも
+　できるかもしれないね…」
+##
+
+<Condition End>
+
+{ケイジ}
+{SE: Accent28-1}
+#Message#
+「ね　調べてみる価値は　ありそうでしょ？」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-4]
+#Message#
+「ああ　よく覚えてたな！」
+##
+
+<Else>
+
+{アリス} [アリス / cara11-6]
+#Message#
+「フン…案外余裕じゃないか…！」
+##
+
+<Condition End>
+
+{ランマル} [ランマル / cara91-20]
+#Message#
+\.「行ってみるしかねえな…」
+##
+
+{サラ}
+#Message#
+「少し…　待っててくださいね　ケイジさん」
+##
+
+{ケイジ}
+{SE: se_maoudamashii_magical14}
+#Message#
+「頼んだよ　相棒」
+##
+
+{アルジー} [アルジー / cara17-8]
+#Message#
+「それじゃあ…　宴を始めようか」
+##
+
+[アルジー / cara17-9]
+{SE: sceneswitch2}
+#Message#
+\.「出て来い…！」
+##
+
+[アルジー / cara17-8]
+{SE: Accent28-1}
+#Message#
+\.「ババァーン！　スゲー機械だろー！」
+##
+
+{サラ}
+#Message#
+「ヒツギ…！　あそこにみんな居るのか!?」
+##
+
+{アルジー} [アルジー / cara17-9]
+{SE: Accent21-1}
+#Message#
+「おっと　開けようとしてもムダだぜ？」
+##
+
+[アルジー / cara17-8]
+{SE: Accent28-1}
+#Message#
+\.「…たった今　ヒツギをロックしたからな」
+##
+
+{サラ}
+#Message#
+\C[4]（とにかく…　近づいて調べてみよう…！）
+##
+

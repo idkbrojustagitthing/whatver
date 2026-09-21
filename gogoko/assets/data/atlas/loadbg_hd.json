@@ -1,0 +1,20 @@
+{"frames": {
+
+"load_background":
+{
+	"frame": {"x":0,"y":0,"w":1536,"h":2048},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1536,"h":2048},
+	"sourceSize": {"w":1536,"h":2048}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "loadbg_hd.png",
+	"format": "RGBA8888",
+	"size": {"w":1536,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1178987dd1b08c30bbac57cb5c996e74:346fdaed4a0a62e501da4a2fffc8ed5f:c2823b32fd7123aa6e95c7cb1df69485$"
+}
+}

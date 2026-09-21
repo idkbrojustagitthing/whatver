@@ -1,0 +1,34 @@
+**********Common1778********** (めも１)
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-21]
+#Message#
+\.「…お…おい……!!」
+##
+
+<Else>
+
+<Condition End>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-15]
+#Message#
+\.「どういうこと…!?　まさか…!!」
+##
+
+<Else>
+
+<Condition End>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-13]
+#Message#
+\.「な　なんだ…!?　まさか…!!」
+##
+
+<Else>
+
+<Condition End>
+

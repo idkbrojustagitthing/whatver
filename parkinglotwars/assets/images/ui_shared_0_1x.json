@@ -1,0 +1,156 @@
+{"frames": {
+
+"areyousure_panel.png":
+{
+	"frame": {"x":1310,"y":1532,"w":720,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":328},
+	"sourceSize": {"w":720,"h":330}
+},
+"game_boxmore_finger.png":
+{
+	"frame": {"x":1992,"y":326,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":47,"h":45}
+},
+"game_tutorial_finger.png":
+{
+	"frame": {"x":1992,"y":380,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":47,"h":45}
+},
+"pattern_btm_bad.png":
+{
+	"frame": {"x":4,"y":1532,"w":1300,"h":460},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1300,"h":460},
+	"sourceSize": {"w":1299,"h":457}
+},
+"pattern_top_bad.png":
+{
+	"frame": {"x":4,"y":816,"w":1680,"h":552},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1680,"h":552},
+	"sourceSize": {"w":1679,"h":549}
+},
+"pattern_top_good.png":
+{
+	"frame": {"x":4,"y":282,"w":1784,"h":528},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1784,"h":528},
+	"sourceSize": {"w":1783,"h":528}
+},
+"pickup_movement.png":
+{
+	"frame": {"x":1794,"y":282,"w":76,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":80,"w":76,"h":72},
+	"sourceSize": {"w":76,"h":188}
+},
+"player_select_card_icon_attack.png":
+{
+	"frame": {"x":1992,"y":488,"w":48,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":48,"h":40},
+	"sourceSize": {"w":48,"h":48}
+},
+"player_select_card_icon_healall.png":
+{
+	"frame": {"x":1992,"y":534,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":40,"h":40},
+	"sourceSize": {"w":48,"h":48}
+},
+"player_select_card_icon_health.png":
+{
+	"frame": {"x":2008,"y":142,"w":36,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":36,"h":32},
+	"sourceSize": {"w":48,"h":48}
+},
+"player_select_card_icon_movement.png":
+{
+	"frame": {"x":2008,"y":180,"w":36,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":8,"w":36,"h":32},
+	"sourceSize": {"w":48,"h":48}
+},
+"player_select_card_icon_splash.png":
+{
+	"frame": {"x":1992,"y":434,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"results_overlay.png":
+{
+	"frame": {"x":1794,"y":360,"w":192,"h":768},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":768},
+	"sourceSize": {"w":190,"h":768}
+},
+"tutorial_gradient.png":
+{
+	"frame": {"x":4,"y":4,"w":1900,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1900,"h":272},
+	"sourceSize": {"w":1900,"h":269}
+},
+"tutorial_ko.png":
+{
+	"frame": {"x":1910,"y":4,"w":128,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":132},
+	"sourceSize": {"w":128,"h":131}
+},
+"ui_tutorial_boxmore_finger.png":
+{
+	"frame": {"x":1910,"y":236,"w":92,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":92,"h":84},
+	"sourceSize": {"w":92,"h":87}
+},
+"ui_tutorial_finger.png":
+{
+	"frame": {"x":1910,"y":142,"w":92,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":88},
+	"sourceSize": {"w":92,"h":87}
+},
+"ui_tutorial_ko.png":
+{
+	"frame": {"x":1690,"y":1134,"w":336,"h":392},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":336,"h":392},
+	"sourceSize": {"w":334,"h":392}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_shared_0_1x.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:504b32281fe91b74d0cb15be4b4183a5:f2dd640d12c1f045b0170b14cdc3f100:775349d02c7330adfb314a1be51488c5$"
+}
+}

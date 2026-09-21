@@ -1,0 +1,13 @@
+{
+	"name": "Tutorial 1",
+	"theme": "glade",
+	"start": "default_start",
+	"bots": {
+	},
+	"sections": [
+		"tutorial_1/press_candy",
+		"tutorial_1/crest_the_hill",
+		"tutorial_1/anticlimax"
+	],
+	"end": "default_end"
+}

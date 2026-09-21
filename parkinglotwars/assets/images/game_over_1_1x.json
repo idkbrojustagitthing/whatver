@@ -1,0 +1,20 @@
+{"frames": {
+
+"gameover_char_bad.png":
+{
+	"frame": {"x":2,"y":2,"w":632,"h":572},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":120,"y":84,"w":632,"h":572},
+	"sourceSize": {"w":900,"h":900}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "game_over_1_1x.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:a66e53e8b581fae5bd2f73df793df92a:666b5bed982ad79e8070e949edf4bf35:9fa38653f8bcda21a2b72243a10bf09c$"
+}
+}

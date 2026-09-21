@@ -1,0 +1,12 @@
+{
+	"radius": 80,
+	"boost": {
+		"minPower": 2000,
+		"maxPower": 8000,
+		"duration": 0.75,
+		"maxOutputSpeed": 500,
+		"minOutputSpeed": 2500
+	},
+	"sprite": "pickup_booster",
+	"scale": 2.0
+}

@@ -1,0 +1,26 @@
+{
+	"texture": {
+		"file": "tutorials/let_go.png",
+		"fileMobile": "tutorials/let_go_mobile.png",
+		"offsetX": 750,
+		"offsetY": -150,
+		"rotation": 0,
+		"autoScale": true
+	},
+	"scale": 1.0,
+	"attachedModule": {
+		"id": "DropTutorialModule",
+		"config": {
+			"preDuration": 0.8,
+			"postDuration": 0.8,
+			"minRequiredPercent": 0.75
+		}
+	},
+	"voiceover": [
+		{
+			"file": "assets/tutorials/voiceover/2-6",
+			"subtitles": "Going down hills makes you go really fast!",
+			"subDuration": 3.0
+		}
+	]
+}

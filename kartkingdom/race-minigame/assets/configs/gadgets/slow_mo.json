@@ -1,0 +1,26 @@
+{
+	"single": {
+		"timeScale": 0.35,
+		"tiltMultiplier": 2.0,
+		"growthMultiplier": 2.0,
+		"burstPowerMultiplier": 1.5,
+		"burstDurationMultiplier": 1.5,
+		"transitionIn": 0.5,
+		"transitionOut": 0.5,
+		"duration": 3.5,
+		"charges": 1,
+		"cooldown": 0
+	},
+	"collaborative": {
+		"timeScale": 0.35,
+		"tiltMultiplier": 2.0,
+		"growthMultiplier": 2.0,
+		"burstPowerMultiplier": 1.5,
+		"burstDurationMultiplier": 1.5,
+		"transitionIn": 0.5,
+		"transitionOut": 0.5,
+		"duration": 3.5,
+		"charges": 3,
+		"cooldown": 1.5
+	}
+}

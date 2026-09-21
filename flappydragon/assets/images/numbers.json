@@ -1,0 +1,33 @@
+{
+"images": ["assets/images/numbers.png"],
+"frames": [
+
+    [152, 2, 48, 48], 
+    [447, 2, 34, 46], 
+    [398, 2, 47, 48], 
+    [349, 2, 47, 48], 
+    [102, 2, 48, 48], 
+    [300, 2, 47, 48], 
+    [251, 2, 47, 48], 
+    [52, 2, 48, 48], 
+    [2, 2, 48, 48], 
+    [202, 2, 47, 48]
+],
+"animations": {
+    
+        "0":[0], 
+        "1":[1], 
+        "2":[2], 
+        "3":[3], 
+        "4":[4], 
+        "5":[5], 
+        "6":[6], 
+        "7":[7], 
+        "8":[8], 
+        "9":[9]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:96f592716dbc59b3871e4c1bb008ad6f:99dfb87732acae6599dd354946ee901e:1070938cc284949ced1e46ffd0a9abd0$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

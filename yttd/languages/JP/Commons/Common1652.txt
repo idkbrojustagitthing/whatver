@@ -1,0 +1,775 @@
+**********Common1652********** (３前進展③熱溶け)
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-19]
+{SE: Accent28-1}
+#Message#
+「ちょっと待てよ…！　今の話…気になるぜ！」
+##
+
+<Else>
+
+{ギン} [ギン / cara9-6]
+{SE: Accent28-1}
+#Message#
+「ちょっと待つニャン！　今の話　気になったワン!!」
+##
+
+<Condition End>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-27]
+#Message#
+\.「ええ…!?　オレかぁ…!?」
+##
+
+[ランマル / cara91-37]
+#Message#
+\.「確かにココアだったと思うけど…」
+##
+
+[ランマル / cara91-34]
+{SE: Accent41-1}
+#Message#
+\.「あれって　もしかして……カフェモカ？」
+##
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-18]
+#Message#
+\.「んなもん　どっちでもいい!!」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{ギン} [ギン / cara9-6]
+#Message#
+\.「ニャアァ!?　お前　ふざけてるワン!?」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ランマル} [ランマル / cara91-39]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「……？」
+##
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Else (Switch #24 (★ランマル生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-12]
+#Message#
+\.「な　なにさ…　急に…！」
+##
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-15]
+#Message#
+\.「\V[921]　ココアなんか　関係ねえっつったが…」
+##
+
+[クルマダ / cara95-17]
+{SE: sceneswitch2}
+#Message#
+\.「爆発も　ホットココアも…
+　『めちゃくちゃ熱い!!』っつー共通点があるぜ!!」
+##
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+{ギン} [ギン / cara9-22]
+#Message#
+\.「\V[921]　ココアなんか関係ないって言うけど…」
+##
+
+[ギン / cara9-6]
+{SE: sceneswitch2}
+#Message#
+\.「爆発も　ホットココアも…
+　『すっごく熱い!!』…って共通点があるワン!!」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-14]
+#Message#
+\.「いやいや！　関係あるか!?　そんなの！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-41]
+#Message#
+\.「なんだそりゃ…　だからどうした…？」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Else (Switch #24 (★ランマル生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-12]
+#Message#
+\.「はぁ…？　だからってなに…？」
+##
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（確かに　\C[2]爆風\C[4]と\C[2]ホットココア\C[4]…　両方とも
+　高温には違いないが…）
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-16]
+#Message#
+\.「えっと…　熱が影響を与えた　というと…」
+##
+
+[カンナ / cara3-17]
+{SE: Accent41-1}
+#Message#
+\.「\C[2]溶けた\C[0]…ってことでしょうか…？」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-15]
+#Message#
+\.「そうだな…　熱が影響を与えたっていうと…」
+##
+
+[ソウ / cara5-18]
+{SE: Accent41-1}
+#Message#
+\.「\C[2]溶けた\C[0]…って線が考えられるね」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-1]
+{SE: Accent28-1}
+#Message#
+\.「\C[2]塗料\C[0]だ…！」
+##
+
+[ハヤサカ / cara94-3]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギの表面に　灯ろうで光る
+　絵の具のようなモノが　塗られてるんじゃないかい？」
+##
+
+<Else (Switch #22 (★ハヤサカ生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-40]
+{SE: Accent28-1}
+#Message#
+\.「\C[2]塗料\C[0]だ…！」
+##
+
+[レコ / cara6-38]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギの表面に　灯ろうで光る絵の具みてえのが
+　塗られてんじゃねえか!?」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-18]
+{SE: Accent28-1}
+#Message#
+\.「\C[2]塗料\C[0]だ…！」
+##
+
+[アリス / cara11-19]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギの表面に　灯ろうで光る絵の具のような物が
+　塗られているのかもしれん…!!」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-2]
+{SE: Accent28-1}
+#Message#
+\.「つまり…\C[2]塗料\C[0]さ」
+##
+
+[ソウ / cara5-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ヒツギの表面に　灯ろうで光る絵の具のようなモノが
+　塗られてたんだよ」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（そう言えば…思い当たる節がある）
+##
+
+#Choice#
+教室の同意書
+教室の黒板
+オフィスのPC
+##
+
+<教室の同意書>
+
+<教室の黒板>
+
+{サラ} [ソウ / cara5-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+「教室の黒板…！」
+##
+
+{SE: SIN-Motion-Pop37-1}
+#Message#
+\.「…とか　関係ありますかね…？」
+##
+
+{Qタロウ} [Qタロウ / cara4-5]
+#Message#
+\.「こっちが聞きたいぜよ！　サラ!!」
+##
+
+<オフィスのPC>
+
+{サラ} [Qタロウ / cara4-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+「オフィスのPC…！」
+##
+
+{SE: SIN-Motion-Pop37-1}
+#Message#
+\.「…とか　関係ありますかね…？」
+##
+
+{Qタロウ} [Qタロウ / cara4-13]
+#Message#
+\.「ええ…!?　すまん！　わからんぜよ…!!」
+##
+
+<Choice End>
+
+{サラ} [Qタロウ / cara4-13]
+{SE: se_maoudamashii_magical14}
+#Message#
+「教室の同意書…！」
+##
+
+#Message#
+「あの黒塗りの部分…」
+##
+
+#Message#
+「同じように　灯ろうで光りました！」
+##
+
+{SE: Accent28-1}
+#Message#
+「そして　\C[2]蒸気噴射\C[0]で　消せたんです…!!」
+##
+
+{Qタロウ} [Qタロウ / cara4-5]
+#Message#
+\.「うおお!!　同じ塗料が使われてたって事ぜよ!?」
+##
+
+{サラ}
+#Message#
+\.「あり得ない話じゃない…！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-16]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「高熱で…塗料が落ちる…」
+##
+
+[カンナ / cara3-13]
+{SE: Accent21-1}
+#Message#
+\.「それなら…　ランマルさんのヒツギが光を失った
+　理由も　うなずけます！」
+##
+
+[カンナ / cara3-18]
+{SE: sceneswitch2}
+#Message#
+\.「そしてもうひとつ…　\C[2]あの人のヒツギ\C[0]が　光を失った
+　可能性も…！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-15]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「高熱で…塗料が落ちる…」
+##
+
+[ソウ / cara5-1]
+{SE: Accent21-1}
+#Message#
+\.「それなら…　ランマルのヒツギが光を失った
+　理由も　うなずけるね」
+##
+
+[ソウ / cara5-2]
+{SE: sceneswitch2}
+#Message#
+\.「そしてもうひとつ…　\C[2]あの人のヒツギ\C[0]が　光を失った
+　可能性も出てくる」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（もう１つ…　光を失ったヒツギか…）
+##
+
+#Message#
+\.\C[4]（ランマルのヒツギと同じように…
+　光を失った可能性があるのは…）
+##
+
+#Choice#
+クルマダのヒツギ
+ケイジのヒツギ
+マイのヒツギ
+ハヤサカのヒツギ
+##
+
+<クルマダのヒツギ>
+
+{サラ} [ソウ / cara5-2]
+{SE: Accent40-1}
+#Message#
+「クルマダさんのヒツギ…！」
+##
+
+{Qタロウ} [Qタロウ / cara4-12]
+#Message#
+\.「な　なんでぜよ…!?」
+##
+
+{サラ}
+#Message#
+\.\C[4]（間違えた…！　そうじゃない…！）
+##
+
+{ヒナコ} [ヒナコ / cara93-5]
+#Message#
+\.「いい…？　高熱で　ヒツギは光を失うんでしょ…？」
+##
+
+[ヒナコ / cara93-10]
+{SE: Accent28-1}
+#Message#
+\.「それなら…　処刑をする為に　高熱を発したヒツギが
+　あったハズじゃない」
+##
+
+<ケイジのヒツギ>
+
+<マイのヒツギ>
+
+{サラ} [ヒナコ / cara93-10]
+{SE: Accent40-1}
+#Message#
+「マイさんのヒツギ…！」
+##
+
+<ハヤサカのヒツギ>
+
+{サラ} [ヒナコ / cara93-10]
+{SE: Accent40-1}
+#Message#
+「ハヤサカさんのヒツギ…！」
+##
+
+<Choice End>
+
+{サラ} [ヒナコ / cara93-10]
+{SE: sceneswitch2}
+#Message#
+「ケイジさんが入ってたヒツギだ…!!」
+##
+
+{SE: Accent28-1}
+#Message#
+\.「あのヒツギは…　ケイジさんを焼肉にするための
+　\C[2]火葬システム\C[0]が動いていた…！」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-3]
+#Message#
+\.「そうだぜ！　フタにふれても　ヤケドするくらいのな！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-14]
+#Message#
+\.「確かに…　フタにふれても　ヤケドするくらいのな！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-18]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「その通り…　フタにふれても　ヤケドするくらいのね」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{ギン} [ギン / cara9-2]
+{SE: flash-of-light-3}
+#Message#
+\.「だったら　おまわりさんのヒツギも
+　光を失ったんだニャン！」
+##
+
+[ギン / cara9-6]
+#Message#
+\.「きっと　溶けた塗料が　フタのすき間に入ったから
+　くっついて開かなくなったニャン!!」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-6]
+#Message#
+\.「でも　おかしいな…」
+##
+
+[レコ / cara6-10]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「このままじゃ　アンズ　ランマル　ケイジ…
+　\C[2]３つ\C[0]のヒツギが　光を失ったことになっちまう！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-16]
+#Message#
+\.「だが…変だな…」
+##
+
+[アリス / cara11-14]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「このままじゃ　アンズ　ランマル　ケイジ…
+　\C[2]３つ\C[0]のヒツギが　光を失ったことになるぞ…！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-15]
+#Message#
+\.「けど　変だな…」
+##
+
+[ソウ / cara5-1]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「このままじゃ　アンズ　ランマル　ケイジ…
+　\C[2]３つ\C[0]のヒツギが　光を失ったことになっちゃうよね」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-4]
+#Message#
+\.「あっ！　数が合わないじゃん！」
+##
+
+<Else (Switch #21 (★アンズ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-6]
+#Message#
+\.「ザッツ変じゃ！　数が合わねえぜよ！」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-19]
+#Message#
+\.「うーんと…　それにさ…」
+##
+
+[マイ / cara92-22]
+{SE: Accent41-1}
+#Message#
+\.「いつ…誰が塗料を塗ったのか…　気にならない…？」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-16]
+#Message#
+\.「あ…あの…　そうなってくると…」
+##
+
+[カンナ / cara3-13]
+{SE: Accent41-1}
+#Message#
+\.「いつ…誰が塗料を塗ったのか…　気になりませんか…？」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-4]
+#Message#
+\.「そうなると…　あれだね…」
+##
+
+[ソウ / cara5-2]
+{SE: Accent41-1}
+#Message#
+\.「いつ…誰が塗料を塗ったのか…　気になるよね…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+{サラ}
+#Message#
+\.\C[4]（確かに…　そこはハッキリさせたい…）
+##
+
+{SE: sceneswitch2}
+#Message#
+\.「わかりました…！　話し合ってみましょう！」
+##
+
+<If Switch #23 (★クルマダ生存ルート) is OFF>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<Else (Switch #24 (★ランマル生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+
+{N/A}
+#Message#
+
+　　　　　　　いつ誰がヒツギを塗った？
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{Qタロウ} [Qタロウ / cara4-7]
+{SE: Accent21-1}
+#Message#
+「まず　オレがサラ達と別れた後…
+　墓地の７つのヒツギは　すべて光っていたぜよ！」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{レコ} [レコ / cara6-10]
+#Message#
+「なら　Qタロウ達と別れる前に　誰かが塗料を
+　塗ったんだな…！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{アリス} [アリス / cara11-18]
+#Message#
+「フン…　じゃあ　ハンバーグ丼太郎達と別れる前に
+　誰かが塗料を　塗ったんだな…！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{Qタロウ} [Qタロウ / cara4-7]
+{SE: Accent21-1}
+#Message#
+「まず　オレがサラ達と別れた後…
+　墓地の７つのヒツギは　すべて光っていたぜよ！」
+##
+
+[Qタロウ / cara4-6]
+{SE: Accent21-1}
+#Message#
+「つまり！　別れる前に　誰かが塗料を塗ったぜよ！」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{ヒナコ} [ヒナコ / cara93-10]
+#Message#
+「どうせ　\N[4]が塗ったんだと思うけど…
+　まさか私達の中に　犯人いないでしょうね…」
+##
+
+<If Switch #24 (★ランマル生存ルート) is ON>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{ランマル} [ランマル / cara91-8]
+{SE: se_maoudamashii_magical14}
+#Message#
+「そうだ！　塗った時に　手や服に付いてんじゃねえの？
+　その塗料ってヤツが！」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+[ランマル / cara91-40]
+{SE: se_maoudamashii_magical14}
+#Message#
+「塗った時に　手や服に付いてるんじゃないか…？
+　その塗料ってヤツが…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+<Condition End (Switch #24 (★ランマル生存ルート))>
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{カンナ} [カンナ / cara3-22]
+{SE: Accent21-1}
+#Message#
+「墓地で不審な行動をしてる人なんて　見た覚えが
+　ないです…」
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{ソウ} [ソウ / cara5-4]
+{SE: Accent21-1}
+#Message#
+「墓地で不審な行動をしてる人なんて　見た覚えがないよ…」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
+{ギン} [ギン / cara9-6]
+#Message#
+「犯人はいない…って事は　ないニャン？」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+{マイ} [マイ / cara92-22]
+{SE: sceneswitch2}
+#Message#
+「ねえ　ギンくんと　\N[4]のヒツギは…
+　他のと差がないのかな…」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+<If Switch #21 (★アンズ生存ルート) is ON>
+
+{アンズ} [アンズ / cara96-6]
+#Message#
+「わかった！　犯人はメイプルちゃんだよ！」
+##
+
+<Condition End (Switch #21 (★アンズ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+{クルマダ} [クルマダ / cara95-18]
+{SE: Accent41-1}
+#Message#
+「つーか　Qタロウのおっさん…
+　本当の事　言ってんだろうな…？」
+##
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+<If Switch #22 (★ハヤサカ生存ルート) is ON>
+
+{ハヤサカ} [ハヤサカ / cara94-4]
+{SE: Accent42-1}
+#Message#
+「そもそも　塗料を塗って　なんの意味があるんだろうね…」
+##
+
+<Condition End (Switch #22 (★ハヤサカ生存ルート))>
+

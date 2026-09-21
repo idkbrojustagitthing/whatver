@@ -1,0 +1,52 @@
+{"frames": {
+
+"gameover_char_good.png":
+{
+	"frame": {"x":768,"y":1538,"w":628,"h":440},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":196,"w":628,"h":440},
+	"sourceSize": {"w":900,"h":900}
+},
+"gameover_radial_001.png":
+{
+	"frame": {"x":2,"y":756,"w":764,"h":884},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":8,"w":764,"h":884},
+	"sourceSize": {"w":900,"h":900}
+},
+"gameover_radial_002.png":
+{
+	"frame": {"x":768,"y":756,"w":900,"h":780},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":56,"w":900,"h":780},
+	"sourceSize": {"w":900,"h":900}
+},
+"results_panel_bad.png":
+{
+	"frame": {"x":2,"y":2,"w":980,"h":752},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":980,"h":752},
+	"sourceSize": {"w":978,"h":750}
+},
+"results_panel_good.png":
+{
+	"frame": {"x":984,"y":2,"w":980,"h":752},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":980,"h":752},
+	"sourceSize": {"w":978,"h":750}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "game_over_0_1x.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:a66e53e8b581fae5bd2f73df793df92a:666b5bed982ad79e8070e949edf4bf35:9fa38653f8bcda21a2b72243a10bf09c$"
+}
+}

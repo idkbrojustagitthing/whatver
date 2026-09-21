@@ -1,0 +1,138 @@
+**********Common1061********** (★死者選択肢　Bの人)
+{ノエル}
+#Message#
+「\C[2]八分雨 ありす（ヤブサメ アリス）\C[0]　が死んだのか？」
+##
+
+#Choice#
+はい
+いいえ
+##
+
+<はい>
+
+{ノエル}
+#Message#
+「正解ー！ やるじゃん！」
+##
+
+<いいえ>
+
+<Choice End>
+
+{N/A}
+#Message#
+\C[2]八分雨 ありす（ヤブサメ アリス）\C[5]　が犠牲になった？
+##
+
+#Choice#
+はい
+いいえ
+##
+
+<はい>
+
+<If Switch #641 (★アリス生存ルート) is ON>
+
+{N/A}
+#Message#
+\C[5]いいや…それは違うはずだ
+##
+
+<Condition End>
+
+#Message#
+\C[5]その通り…
+##
+
+<いいえ>
+
+<Choice End>
+
+{N/A}
+#Message#
+\C[2]日和 颯（ヒヨリ ソウ）\C[5]　が犠牲になった？
+##
+
+#Choice#
+はい
+いいえ
+##
+
+<はい>
+
+<If Switch #822 (★ソウ生存ルート) is ON>
+
+{N/A}
+#Message#
+\C[5]いいや…それは違うはずだ
+##
+
+<Condition End>
+
+#Message#
+\C[5]よし　よく覚えているね…
+##
+
+<いいえ>
+
+<Choice End>
+
+{N/A}
+#Message#
+\C[2]アリスさん\C[5]が犠牲になりましたか？
+##
+
+#Choice#
+はい
+いいえ
+##
+
+<はい>
+
+<If Switch #641 (★アリス生存ルート) is ON>
+
+{N/A}
+#Message#
+\C[5]いいえ…それは違います…
+##
+
+<Condition End>
+
+#Message#
+\C[5]その通りです…
+##
+
+<いいえ>
+
+<Choice End>
+
+{N/A}
+#Message#
+\C[2]ソウさん\C[5]が犠牲になりましたか？
+##
+
+#Choice#
+はい
+いいえ
+##
+
+<はい>
+
+<If Switch #822 (★ソウ生存ルート) is ON>
+
+{N/A}
+#Message#
+\C[5]いいえ…それは違います…
+##
+
+<Condition End>
+
+#Message#
+\C[5]その通りです…
+##
+
+<いいえ>
+
+<Choice End>
+

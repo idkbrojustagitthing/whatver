@@ -1,0 +1,569 @@
+**********Common1557********** (呼・メイプルのあがき)
+{メイプル}
+{SE: WON-robo5}
+#Message#
+「シノウ…　ヒヨリクン…」
+##
+
+{\N[4]} [ミドリ / cara19-20]
+{SE: Accent21-1}
+#Message#
+\.「…ひとりで死になよ　ボクはいい」
+##
+
+[ミドリ / cara19-21]
+#Message#
+「…っ…！」
+##
+
+{サラ}
+#Message#
+\.「\N[4]…」
+##
+
+#Choice#
+メイプルは本気だ
+謝る気になったか？
+反抗しないのか
+##
+
+<メイプルは本気だ>
+
+{サラ} [ミドリ / cara19-21]
+{SE: Accent40-1}
+#Message#
+「メイプルは本気だ…」
+##
+
+{\N[4]} [ミドリ / cara19-20]
+#Message#
+\.「ふ…　ふふ…　ビックリだよ…」
+##
+
+<謝る気になったか？>
+
+{サラ} [ミドリ / cara19-20]
+{SE: Accent40-1}
+#Message#
+「謝る気になったか…？」
+##
+
+{\N[4]}
+#Message#
+\.「ふ…　ふふ…　なにが…？」
+##
+
+<反抗しないのか>
+
+{サラ} [ミドリ / cara19-20]
+{SE: Accent40-1}
+#Message#
+「反抗しないのか　…殺されるぞ」
+##
+
+{\N[4]}
+#Message#
+\.「ふ…　ふふ…　冷たいね…」
+##
+
+<Choice End>
+
+{Qタロウ} [Qタロウ / cara4-9]
+#Message#
+\.「なんや…　震えてるじゃねえか…」
+##
+
+[Qタロウ / cara4-10]
+#Message#
+\.「反抗出来るワケねえって…　たかをくくってたか…？」
+##
+
+[Qタロウ / cara4-6]
+#Message#
+\.「きさんは殺されるぜよ…！　助けるヤツはいねえ…!!」
+##
+
+{\N[4]} [ミドリ / cara19-20]
+#Message#
+\.「………！」
+##
+
+[ミドリ / cara19-22]
+#Message#
+\.「…いいのかな　ダミーズ
+　ボクが死ねば　キミ達の首輪は…」
+##
+
+<If Switch #25 (★マイ生存ルート) is ON>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+{クルマダ} [クルマダ / cara95-26]
+{SE: sceneswitch2}
+#Message#
+\.「…仕方ねえよ
+　どうせ　止められねえしな…」
+##
+
+<Else (Switch #25 (★マイ生存ルート))>
+
+<If Switch #23 (★クルマダ生存ルート) is ON>
+
+<Else (Switch #23 (★クルマダ生存ルート))>
+
+<Condition End (Switch #23 (★クルマダ生存ルート))>
+
+[クルマダ / cara95-31]
+#Message#
+\.「こっちは　ブチギレてんだよ…!!
+　あの世でマイに詫びやがれ…!!」
+##
+
+<Condition End (Switch #25 (★マイ生存ルート))>
+
+{\N[4]} [ミドリ / cara19-21]
+#Message#
+\.「うっ…」
+##
+
+[ミドリ / cara19-20]
+#Message#
+\.「は…　ははは…」
+##
+
+<If Switch #821 (★カンナ生存ルート) is ON>
+
+{サラ}
+#Message#
+\.\C[4]（もう…手の差し伸べようが…無い）
+##
+
+#Message#
+\.\C[4]（私達は　最後を見守るだけだ…）
+##
+
+<Else (Switch #821 (★カンナ生存ルート))>
+
+{メイプル}
+{SE: WON-robo5}
+#Message#
+「ニゲナイデ…　ニガサナイ…」
+##
+
+{ソウ} [ソウ / cara5-17]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「追うよ　サラさん」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{サラ}
+#Message#
+\.「ま　待ってください…！　その前に…レコさんを…！」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+#Message#
+\.「ま　待ってください…！　その前に…アリスさんを…！」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+{ソウ} [ソウ / cara5-37]
+#Message#
+\.「………」
+##
+
+[ソウ / cara5-5]
+{SE: horror_piano chord3}
+#Message#
+\.「いないんだよ　もう…」
+##
+
+{サラ}
+#Message#
+\.「………!!」
+##
+
+{ソウ} [ソウ / cara5-19]
+#Message#
+\.「…勝手にしなよ　ボクは行くね」
+##
+
+{サラ}
+#Message#
+\C[4]（………）
+##
+
+{SE: Accent21-1}
+#Message#
+\.\C[4]（…もう　いない……？）
+##
+
+#Message#
+\.\C[4]（受け入れろって…いうのか…？）
+##
+
+#Message#
+\.\C[4]（これを…）
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+#Message#
+\.\C[4]（あんなに優しくて…　強かったレコさんが…）
+##
+
+#Message#
+\.\C[4]（力の無い私達を…守ろうとしてくれた…レコさんが…）
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（仲間だと…　信じた仲間に手をかけられて…）
+##
+
+#Message#
+\.\C[4]（………）
+##
+
+#Message#
+\.\C[4]（そんなの…割り切れるワケ…ない）
+##
+
+{SE: Accent40-1}
+#Message#
+\.\C[4]（これは…　全部　私がまいた…種）
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+#Message#
+\.\C[4]（\N[4]に人生を壊され…
+　兄妹仲を　引き裂かれて…）
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（レコさんを失い…　その思い出すら…　手にかけて…）
+##
+
+{SE: Accent21-1}
+#Message#
+\.\C[4]（アリスさんには…　もっともっと幸せな人生が
+　あったハズなのに…）
+##
+
+#Message#
+\.\C[4]（………）
+##
+
+{SE: Accent40-1}
+#Message#
+\.\C[4]（これは…　全部　私がまいた…種）
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+#Message#
+\.\C[4]（あの時　私は…　思ってしまった…）
+##
+
+{SE: Accent43-1}
+#Message#
+\.\C[4]（優勝したいと…）
+##
+
+#Message#
+\.\C[4]（…仲間を守る重圧から　逃げ出したい…と）
+##
+
+#Message#
+\.\C[4]（………）
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（ランマルを狂わせたのは…私だ）
+##
+
+{SE: heart2}
+#Message#
+\.\C[4]（全部…　私のせい…だ…）
+##
+
+{SE: Accent21-1}
+#Message#
+\.\SP[12]「ごめん…なさい…」
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+#Message#
+\.\SP[10]「ごめん…なさい……　レコさん…」
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+#Message#
+\.\SP[10]「ごめん…なさい……　アリスさん…」
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+#Message#
+\.\SP[7]「………」
+##
+
+{ギン} [ギン / cara9-14]
+{SE: Accent40-1}
+#Message#
+\.「………」
+##
+
+{サラ}
+#Message#
+\.「ギン…」
+##
+
+{SE: se_maoudamashii_magical14}
+#Message#
+\.\C[4]（今の私に…　抱きしめてやる資格も…無い）
+##
+
+#Message#
+\.\C[4]（ごめん…ギン……）
+##
+
+{Qタロウ} [Qタロウ / cara4-8]
+{SE: sceneswitch2}
+#Message#
+\.「待て…サラ」
+##
+
+{サラ}
+#Message#
+\.「Qタロウさん…」
+##
+
+{ギン} [ギン / cara9-14]
+{SE: Accent21-1}
+#Message#
+\.「筋肉ゴリラ…」
+##
+
+{Qタロウ} [Qタロウ / cara4-8]
+#Message#
+\.「\N[4]に何を言われたか知らんが…」
+##
+
+[Qタロウ / cara4-5]
+#Message#
+\.「オレ達は　サラを信じてるぜよ」
+##
+
+{サラ}
+#Message#
+\.「……!!」
+##
+
+{Qタロウ} [Qタロウ / cara4-6]
+{SE: Accent21-1}
+#Message#
+\.「オレ達は…　全員が大きさは違えど…
+　罪を抱えてる…」
+##
+
+{サラ}
+#Message#
+\.「……」
+##
+
+#Choice#
+そうかもしれない
+そんなことは無い
+##
+
+<そうかもしれない>
+
+{サラ} [Qタロウ / cara4-6]
+{SE: Accent40-1}
+#Message#
+「そう…かもしれない……ですね…」
+##
+
+{Qタロウ} [Qタロウ / cara4-9]
+#Message#
+\.「信じるなんて言葉で…　サラに負担をかけてきたのも…
+　…そうだ」
+##
+
+[Qタロウ / cara4-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「でも　お前さんは誰も責めねえ
+　いつ見限ったって　恨まれる筋合いはねえのに」
+##
+
+<そんなことは無い>
+
+{サラ} [Qタロウ / cara4-5]
+{SE: Accent40-1}
+#Message#
+「そんなことは無いハズです…
+　ギンは　ずっとみんなの為に尽くしてたし…」
+##
+
+{ギン} [ギン / cara9-14]
+#Message#
+\.「ううん…　ボクは…」
+##
+
+[ギン / cara9-15]
+{SE: Accent21-1}
+#Message#
+\.「メインゲームの投票を…
+　サラ姉ちゃんに託して…逃げたニャン…」
+##
+
+{サラ}
+#Message#
+\.「それは違う…　ギンは…」
+##
+
+{Qタロウ} [Qタロウ / cara4-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「お前さんは誰も責めねえ
+　いつ見限ったって　恨まれる筋合いはねえのに」
+##
+
+<Choice End>
+
+{サラ} [Qタロウ / cara4-5]
+#Message#
+\.「バカなこと言わないで下さい　私達は…」
+##
+
+#Message#
+\.「私…達は…」
+##
+
+{SE: Accent43-1}
+#Message#
+\.「仲間……だから…」
+##
+
+{Qタロウ} [Qタロウ / cara4-7]
+{SE: Accent21-1}
+#Message#
+\.「そうぜよ…」
+##
+
+[Qタロウ / cara4-8]
+#Message#
+\.「お互いが離れて　生き延びれるワケ　ねえんだ」
+##
+
+{サラ}
+#Message#
+\.「………」
+##
+
+{Qタロウ} [Qタロウ / cara4-5]
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「だから　離れんでくれ」
+##
+
+[Qタロウ / cara4-6]
+{SE: Accent28-1}
+#Message#
+\.「心の距離を…取らんでくれ」
+##
+
+{ギン} [ギン / cara9-14]
+{SE: Accent21-1}
+#Message#
+\.「…サラ姉ちゃん…」
+##
+
+{サラ}
+#Message#
+\.「………」
+##
+
+#Message#
+\.「…」
+##
+
+{SE: Accent40-1}
+#Message#
+\.「…はい」
+##
+
+{N/A}
+{SE: Accent28-1}
+#Message#
+\.\C[3]私はギンの体をしっかりと引き寄せた。
+##
+
+{サラ}
+{SE: Accent21-1}
+#Message#
+\.「泣くな…ギン」
+##
+
+{ギン}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「…うん……」
+##
+
+{N/A}
+{SE: sceneswitch2}
+#Message#
+\.\C[3]打ち勝ってみせる…
+##
+
+{SE: sceneswitch2}
+#Message#
+\.\C[3]\N[4]の言う私に…私はならない。
+##
+
+<If Switch #642 (★レコ生存ルート) is ON>
+
+{SE: Thunder10}
+#Message#
+\.\C[3]レコさんの…死に誓って。
+##
+
+<Else (Switch #642 (★レコ生存ルート))>
+
+{SE: Thunder10}
+#Message#
+\.\C[3]アリスさんの…死に誓って。
+##
+
+<Condition End (Switch #642 (★レコ生存ルート))>
+
+{ギン} [ギン / cara9-19]
+{SE: sceneswitch2}
+#Message#
+\.「行こうニャン！　サラ姉ちゃん！」
+##
+
+{サラ}
+{SE: se_maoudamashii_magical14}
+#Message#
+\.「ああ…！　みんなを追おう…！」
+##
+
+<Condition End (Switch #821 (★カンナ生存ルート))>
+
